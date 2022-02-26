@@ -6,7 +6,7 @@ title: Home
 <div class="container-fluid">
   <div class="row">
     <div class="col-sm-7">
-      <img class="img-fluid" src="./imgs/Pankaj.jpg" alt="Dr Pankaj Sharma"><br>
+      <img class="img-fluid" src="https://github.com/sharmapn/sharmapn.github.io/blob/main/imgs/Pankaj.png" alt="Dr Pankaj Sharma"><br>
     </div>
     <div class="col-sm-5">    
     <h1 class="text-primary">Kia Ora, Welcome</h1>
