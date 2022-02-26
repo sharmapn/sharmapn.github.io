@@ -13,7 +13,7 @@ title: Home
 
 I am a Research Fellow at the University of Auckland, New Zealand in the Department of Environment. <br><br>
 
-My research is mainly in the Data Sovereignty tools for Indegiounous communities. My research is funded by the ... My research topics include: spatial data security, and decision-making within software ecosystems, . .<br><br>
+My research is mainly in the Data Sovereignty tools for Indigenous communities. My research is funded by the ... My research topics include: spatial data security, and decision-making within software ecosystems, . .<br><br>
 
 <div style="text-align: center;"><a href="/about.html" style="font-family: 'Homemade Apple', cursive; font-size: 150%;">More about Pankaj</a></div>
 
