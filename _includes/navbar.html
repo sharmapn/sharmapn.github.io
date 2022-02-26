@@ -1,0 +1,19 @@
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-primary">
+  <div class="container-fluid">
+    <a class="navbar-brand" style="font-family: 'Homemade Apple', cursive;" href="/">{{site.title}}</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <div class="navbar-nav">
+	{% for item in site.data.navbar %}
+	  {% if page.url == item.link %}
+	    <a class="nav-item nav-link active" aria-current="page" href="{{item.link}}">{{ item.name }}</a>
+	  {% else %}
+	    <a class="nav-item nav-link" href="{{item.link}}">{{ item.name }}</a>
+	    {% endif %}
+	{% endfor %}
+      </div>
+    </div>
+  </div>
+</nav>
