@@ -21,7 +21,7 @@ My research interests are in decision-making and spatial data security.
 
 - In spatial data security, I want to supervise a research student to design and develop an in-house data storage repository that can provide more features that traditional file servers – an extension of my own master’s thesis. My future interests are on human decision-making based on collective intelligence. 
 
-<div style="text-align: center;"><a href="/about.html" style="font-family: 'Homemade Apple', cursive; font-size: 150%;">More about Kelly</a></div>
+<div style="text-align: center;"><a href="/about.html" style="font-family: 'Homemade Apple', cursive; font-size: 150%;">More about Pankaj</a></div>
 
 
 </div>
