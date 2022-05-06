@@ -19,6 +19,7 @@ In these courses, I have:
 - Emphasized on the practical aspect of the courses and introduced latest technologies: Web Development,
 Mobile Application Development, Data Warehousing, Business Intelligence and Game Programming with ASP.NET
 C# 3.5, Android, SSIS, SSAS and SSRS technologies.
-- Introduced Business Intelligence Systems: data warehousing and data mining to University using Microsoft
+- Introduced Business Intelligence Systems: Data warehousing and Data mining courses using Microsoft
 products: Visual Studio 2008, SQL Server Analysis Services, SSRS, SSIS and BIDS 2008.
+- I had taken a coaching role in final year students’ industrial software development projects.
 
