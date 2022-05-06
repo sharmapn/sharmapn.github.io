@@ -12,8 +12,6 @@ Below is a list of courses that I have taught at the University of Fiji. <br>
   {{item.years}}</div>
 {% endfor %}
 
-<br> 
-
 In these courses, I have:
 
 - Emphasized on the practical aspect of the courses and introduced latest technologies: Web Development,
