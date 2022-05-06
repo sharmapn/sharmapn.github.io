@@ -1,0 +1,14 @@
+- name: Home
+  link: /
+- name: About
+  link: /about.html
+- name: Publications
+  link: /publications.html
+- name: Teaching
+  link: /teaching.html
+- name: Students
+  link: /students.html
+- name: Service
+  link: /service.html
+- name: Contact
+  link: /contact.html
