@@ -12,7 +12,7 @@ Below is a list of courses that I have taught at the University of Fiji. <br>
   {{item.years}}</div>
 {% endfor %}
 
-<br> <br>
+<br> 
 
 In these courses, I have:
 
