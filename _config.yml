@@ -1,10 +1,9 @@
 plugins:
-  - jekyll-seo-tag
   - jekyll-sitemap
   
 gems: ['jekyll/scholar'] 
 
-title: "Dr Kelly Blincoe"
+title: "Dr Pankajeshwara Sharma"
 
 scholar:
   style: _bibliography/acm-sigchi-proceedings.csl
