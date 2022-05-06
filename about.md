@@ -7,6 +7,21 @@ I am a Senior Lecturer of Software Engineering at the University of Auckland, Ne
 The senior lecturer title is equivalent to associate professor in North American, European, and Asian universities
 (<a href="http://en.wikipedia.org/wiki/Academic_ranks_(Australia_and_New_Zealand)" target="_blank">see here</a>).<br>
 
+I have worked as a University Lecturer for two and a half years. I also have more than six years application development commercial work experience in the public and private sector. 
+
+Teaching
+
+One paragrapgh of you teaching background
+
+I look forward to the follwoing opprtunities in an academic lecturing role.
+•	Teaching – I have taught final year and postgraduate level courses as a University Lecturer. 
+•	Industrial consultation – using my Industrial background, I would like to assist in carrying out real world application development for a University as well as external organisations. 
+•	Coaching students to build real-world applications, as I previously did as a University Lecturer
+
+Research 
+
+Talk about what you have reserached upon and your achievements 
+
 My research is mainly in the human and social aspects of software engineering. I take a socio-technical perspective, considering the interaction between the social and technical aspects of software engineering. Some of my current research projects include:
 <ul>
 <li><b>Automated Updates of Software Dependencies.</b> Most modern software systems depend on existing software components, such as packages, libraries, or modules. When critical issues (e.g. security vulnerabilities) are discovered and fixed in a software component, the dependent software systems should include these fixes by updating to the latest version. However, changes in a software component can cause critical failures in the dependent software if the new version includes breaking changes. Each software system that depends on the component will need to update their code to accommodate these breaking changes, making it difficult to automate the update process. This project is investigating novel, advanced methods to automate this process.</li>
