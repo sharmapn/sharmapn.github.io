@@ -12,14 +12,11 @@ title: Home
     <h1 class="text-primary">Kia Ora, Welcome</h1>
 
 I am a Research Fellow at the GIScience Team, Department of Environment at the University of Auckland, New Zealand. <br><br>
+I am working on a project which focuses on providing Data sovereignty for Indigenous people. We are building a tool which will obfuscate, secure, and notarize spatial datasets. 
 
-My research is mainly in the Data Sovereignty tools for Indigenous communities. My research is funded by the ... My research topics include: spatial data security, and decision-making within software ecosystems, . .<br><br>
-      
-My research interests are in decision-making and spatial data security. 
+<br>
 
-- After researching on decision-making processes in OSS communities, I want to further examine the following topics by supervising Master’s research students: (a) if and which core developer’s preference matters in decision-making in these communities? (b) how sentiments change after project leader steps down, and (c) who influences decisions. 
-
-- In spatial data security, I want to supervise a research student to design and develop an in-house data storage repository that can provide more features that traditional file servers – an extension of my own master’s thesis. My future interests are on human decision-making based on collective intelligence. 
+I graduated with a PhD in Information science from the Otago University in May last year. In my research, I identified and extracted Decision-making processes from OSS email archived of the Python community. The last of four published papers was at last year’s International Conference on Software Engineering – an A* ranked conference. We subsequently examined influence tactics in the Bitcoin community and published a paper at the International Conference in Information Systems – another A+ ranked conference.         
 
 <div style="text-align: center;"><a href="/about.html" style="font-family: 'Homemade Apple', cursive; font-size: 150%;">More about Pankaj</a></div>
 
