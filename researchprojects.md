@@ -8,7 +8,7 @@ I am looking forward to supervise research students in OSS decision-making and s
    - whether social connections (“knowing key members”) affects likelihood of participation (e.g. bug reporting, enhancement reporting and in decision-making)
 
 -	Structuring unstructured OSS communities 
-Not all OSS projects have a structure favourable for mining decision-making information. Python has PEP (Python Enhancement Proposal) numbers and recent OSS communities, like Bitcoin, follow this convention. However, other older communities like Apache and Perl do not. This project would aim at automatically assigning proposal numbers to ideas so that we can mine how decisions on them were made.
+Not all OSS projects have a structure favourable for mining decision-making information. Python has PEPs (Python Enhancement Proposals) and recent OSS communities, like Bitcoin, follow this convention. However, other older communities like Apache and Perl do not. This project would aim at automatically assigning a structure so that decision-making information can be mined.
 
 - In spatial data security, I want to focus on the development of an in-house DBMS-based data storage repository that can provide more features that traditional file servers – an extension of my own master’s thesis. 
 
