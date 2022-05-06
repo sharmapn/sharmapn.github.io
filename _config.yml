@@ -1,1 +1,37 @@
-theme: jekyll-theme-leap-day
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  
+gems: ['jekyll/scholar'] 
+
+title: "Dr Kelly Blincoe"
+
+scholar:
+  style: _bibliography/acm-sigchi-proceedings.csl
+  locale: en
+
+  sort_by: ordering, author
+  order: ascending
+
+  group_by: year
+  group_order: descending
+
+  source: ./_bibliography
+  bibliography: references.bib
+
+  bibtex_filters: latex	
+  bibliography_template: bib
+
+  details_dir: publications
+  details_layout: publication.html
+  details_link_class: noshow
+  
+  replace_strings: true
+  join_strings:    true
+
+  bibliography_list_tag: 'div'
+  bibliography_item_tag: 'span'
+  
+  bibtex_skip_fields: ['pdf', 'code', 'video', 'slides', 'ordering']
+  
+  query: "@*"
