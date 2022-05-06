@@ -3,6 +3,9 @@ layout: default
 title: Teaching
 ---
 I have taught Undergraduate & Postgraduate Computing Science Students. My courses cover topics mostly related to software development and business informatics. 
+
+<br> <br>
+
 Below is a list of courses that I have taught at the University of Fiji. <br>
 
 <h2 class="text-primary">Courses Taught</h2>
