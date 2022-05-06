@@ -8,7 +8,7 @@ I am looking forward to supervise research students in OSS decision-making and s
    - whether social connections (“knowing key members”) affects likelihood of participation (e.g. bug reporting, enhancement reporting and in decision-making)
 
 -	Structuring unstructured OSS communities <br>
-Not all OSS projects have a structure favourable for mining decision-making information. Python has a good structure which was helpful for mining this information. Recent OSS communities, like Bitcoin, follow their convention. However, other older communities like Apache and Perl do not have a structure. This project would aim at automatically assigning a structure so that decision-making information can be mined.
+Not all OSS projects have a structure favourable for mining decision-making information. Unlike the Python community, older communities like Apache and Perl do not have a structure in relation to language enhancements. This project would aim at automatically assigning a structure so that decision-making information can be mined.
 
 - In spatial data security, I want to focus on the development of an in-house DBMS-based data storage repository that can provide more features that traditional file servers – an extension of my own master’s thesis. 
 
