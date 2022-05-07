@@ -3,7 +3,7 @@ layout: default
 title: About
 ---
 
-I am a Senior Lecturer of Software Engineering at the University of Auckland, New Zealand in the Department of Electrical, Computer, and Software Engineering. I lead the Human Aspects of Software Engineering Lab (HASEL), check it out at <a href="https://hasel.auckland.ac.nz/" target="_blank">https://hasel.auckland.ac.nz</a>.
+I am a Research Fellow at the University of Auckland, New Zealand  within the GIScience team in the Department of Environment. I lead the Human Aspects of Software Engineering Lab (HASEL), check it out at <a href="https://hasel.auckland.ac.nz/" target="_blank">https://hasel.auckland.ac.nz</a>.
 The senior lecturer title is equivalent to associate professor in North American, European, and Asian universities
 (<a href="http://en.wikipedia.org/wiki/Academic_ranks_(Australia_and_New_Zealand)" target="_blank">see here</a>).<br>
 
@@ -39,10 +39,6 @@ My research has been published in the the proceedings of the following conferenc
 - International Conference in Evaluation and Assesment in Software Engineering (EASE), and 
 - Asia Pacific Software Engineering Conference (APSEC), among others. 
 Check out my full <a href="/publications.html">list of publications</a>.<br>
-
-I am serve in many leadership positions in the software engineering research community.
-I serve on the program committees of various conferences and workshops including ICSE, ESEC/FSE, RE, and MSR.
-I am on the editorial boards of the IEEE Transactions on Software Engineering, the Empirical Software Engineering Journal, and the Journal of Systems and Software. Check out my current and previous <a href="/service.html">service roles</a>.<br>
 
 Before starting at the University of Auckland, I was a lecturer at University of Fiji for two and a half years.
 Prior to that, I was a Postdoctoral Fellow in the Software Engineering Global interAction Lab in the Department of Computer Science at the University of Victoria, Canada.
