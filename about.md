@@ -17,12 +17,13 @@ My research is mainly in the human and social aspects of software engineering. I
 I have used a variety of both qualitative and quantitative empirical research methods including developing new methods and tools, text mining,
 repository analysis, and social network analysis. My research has been published in the the proceedings of the these conferences: International Conference in Software Engineering (ICSE), International Conference in Information Systems (ICIS), International Conference in Evaluation and Assesment in Software Engineering (EASE), and Asia Pacific Software Engineering Conference (APSEC), among others. Check out my full <a href="/publications.html">list of publications</a>.<br>
 
-Before starting at the University of Auckland, I was a lecturer at University of Fiji for two and a half years.
-Prior to that, I was a Postdoctoral Fellow in the Software Engineering Global interAction Lab in the Department of Computer Science at the University of Victoria, Canada.
-
-I have also worked in the industry for six years: both a software developer, database administrator and a business analyst at various public and private sector organisations. This includes roles where I worked with backend and frontend technologies. I have developed desktop, web and mobile applications using a number of languages. I have a good work ethic and I have constantly put my heart into development shown by the number of projects I have completed. 
-
-I obtained my PhD from Otago University in 2021.
+Before starting at the University of Auckland, I was a PhD candidate at University of Otago. I obtained my PhD from Otago University in 2021.
 My <a href="./publications/blincoe_thesis.pdf" target="_blank">PhD dissertation</a> focused on methods to facilitate timely and efficient coordination between software developers. I recieved a MS in Computing Science from University of the South Pacific in 2007 and a BSc from the same University in 2001.<br>
+
+Prior to that, I was a Lecturer in Computing at the University of Fiji for two and a half years. 
+
+I have also worked in the industry for six years: as a software developer, database administrator and a business analyst at various public and private sector organisations. This includes roles where I worked with backend and frontend technologies. I have developed desktop, web and mobile applications using a number of languages. I have a good work ethic and I have constantly put my heart into development shown by the number of projects I have completed. 
+
+
 
 I am  originally from Lautoka, Fiji. I currently live in Auckland, New Zealand with my wife.<br>
