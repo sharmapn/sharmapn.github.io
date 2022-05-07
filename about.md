@@ -9,20 +9,15 @@ The senior lecturer title is equivalent to associate professor in North American
 
 In my role we are developing a prototype of a Spatial Data Sovereignty tool. The project involves both designing and building a state-of-the-art web architecture and interface to mask, encrypt, and notarize spatial data. The project has a special interest in protecting indigenous data, specifically as it relates to forest biodiversity data. It comes at a particularly important moment for Aotearoa New Zealand, as there has been a surge in biodiversity challenges that require diverse datasets to be integrated into analysis – often containing sensitive and indigenous knowledge.
 
-I have worked as a University Lecturer for two and a half years. I also have more than six years application development commercial work experience in the public and private sector. 
+One paragrapgh of you teaching background: I have worked as a University Lecturer for two and a half years.  
 
-Teaching
 
-One paragrapgh of you teaching background
 
 I look forward to the follwoing opprtunities in an academic lecturing role.
-•	Teaching – I have taught final year and postgraduate level courses as a University Lecturer. 
-•	Industrial consultation – using my Industrial background, I would like to assist in carrying out real world application development for a University as well as external organisations. 
-•	Coaching students to build real-world applications, as I previously did as a University Lecturer
-
-Research 
-
-Talk about what you have reserached upon and your achievements 
+-	Teaching – I have taught final year and postgraduate level courses as a University Lecturer. 
+- Research - 
+-	Industrial consultation – using my Industrial background, I would like to assist in carrying out real world application development for a University as well as external organisations. 
+-	Coaching students to build real-world applications, as I previously did as a University Lecturer
 
 My research is mainly in the human and social aspects of software engineering. I take a socio-technical perspective, considering the interaction between the social and technical aspects of software engineering. Some of my current research projects include:
 <ul>
@@ -45,7 +40,7 @@ Check out my full <a href="/publications.html">list of publications</a>.<br>
 Before starting at the University of Auckland, I was a lecturer at University of Fiji for two and a half years.
 Prior to that, I was a Postdoctoral Fellow in the Software Engineering Global interAction Lab in the Department of Computer Science at the University of Victoria, Canada.
 
-I have worked for six years as both a software developer and a business analyst at various public and private sector organisations. This includes roles where I worked with backend and frontend technologies. I have developed desktop, web and mobile applications using a number of languages. I have a good work ethic and I have constantly put my heart into development shown by the number of projects I have completed. 
+I have also worked in the industry for six years: both a software developer, database administrator and a business analyst at various public and private sector organisations. This includes roles where I worked with backend and frontend technologies. I have developed desktop, web and mobile applications using a number of languages. I have a good work ethic and I have constantly put my heart into development shown by the number of projects I have completed. 
 
 I obtained my PhD from Otago University in 2021.
 My <a href="./publications/blincoe_thesis.pdf" target="_blank">PhD dissertation</a> focused on methods to facilitate timely and efficient coordination between software developers.
