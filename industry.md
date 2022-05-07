@@ -1,9 +1,9 @@
 The following are the industry application development projects I have undertaken.
 
-<b>Analyst Programmer</b> | <i>Datec Fiji</i> (Oct 14 - Apr 15)
+<b>Analyst Programmer/Business Analyst</b> | <i>Datec Fiji</i> (Oct 14 - Apr 15)
 -	Worked on migration of IBanqs HFC Bank application from VB6 to ASP.NET MVC application. 
 -	Coded VBA application to write biometric time sheet data to file in specific format for upload into PayGlobal. 
--	As a Business Analyst, I oversaw development of the following applications: Fiji Water Training Management application system in ASP.NET C#, CashFlow system in C# and the RIBAK PNG website.
+-	Oversaw development of these applications: Fiji Water Training Management application system in ASP.NET C#, CashFlow system in C# and the RIBAK PNG website.
 
 <b>Analyst Programmer</b> | <i>Fiji National University</i> (Aug 14 – Oct 14)
 -	Built the Online Programme Search facility in ASP.NET C# 4.0 allowing anyone to search for programmes offered by FNU online.  
