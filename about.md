@@ -3,19 +3,9 @@ layout: default
 title: About
 ---
 
-I am a Research Fellow at the University of Auckland, New Zealand  within the GIScience team in the Department of Environment. I lead the Human Aspects of Software Engineering Lab (HASEL), check it out at <a href="https://hasel.auckland.ac.nz/" target="_blank">https://hasel.auckland.ac.nz</a>.
-The senior lecturer title is equivalent to associate professor in North American, European, and Asian universities
-(<a href="http://en.wikipedia.org/wiki/Academic_ranks_(Australia_and_New_Zealand)" target="_blank">see here</a>).<br>
-
-In my role we are developing a prototype of a Spatial Data Sovereignty tool. The project involves both designing and building a state-of-the-art web architecture and interface to mask, encrypt, and notarize spatial data. The project has a special interest in protecting indigenous data, specifically as it relates to forest biodiversity data. It comes at a particularly important moment for Aotearoa New Zealand, as there has been a surge in biodiversity challenges that require diverse datasets to be integrated into analysis – often containing sensitive and indigenous knowledge.
+I am a Research Fellow at the University of Auckland, New Zealand  within the GIScience team in the Department of Environment. In my role we are developing a prototype of a Spatial Data Sovereignty tool. The project involves both designing and building a state-of-the-art web architecture and interface to mask, encrypt, and notarize spatial data. The project has a special interest in protecting indigenous data, specifically as it relates to forest biodiversity data. It comes at a particularly important moment for Aotearoa New Zealand, as there has been a surge in biodiversity challenges that require diverse datasets to be integrated into analysis – often containing sensitive and indigenous knowledge.
 
 I have worked as a University Lecturer at the University of Fiji for two and a half years. I developed completely new courses by doing extensive subject area research. These courses, both at undergraduate and post graduate levels were based on emerging technologies and provide a strong industry focus. I emphasized on the practical aspect in these courses introducing latest technologies. I also undertook a number of projects: web and mobile application development projects using students. Students appreciated and were attracted to the practical nature of the courses. I took a ``coaching style'' approaches to accomplish student IT projects, including regularly staying behind to help students in their projects resulting in some very good software projects .
-
-I look forward to the follwoing opprtunities in an academic lecturing role.
--	Teaching – I have taught final year and postgraduate level courses as a University Lecturer. 
-- Research - 
--	Industrial consultation – using my Industrial background, I would like to assist in carrying out real world application development for a University as well as external organisations. 
--	Coaching students to build real-world applications, as I previously did as a University Lecturer
 
 My research is mainly in the human and social aspects of software engineering. I take a socio-technical perspective, considering the interaction between the social and technical aspects of software engineering. Some of my current research projects include:
 <ul>
