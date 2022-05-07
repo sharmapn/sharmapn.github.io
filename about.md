@@ -7,6 +7,8 @@ I am a Research Fellow at the University of Auckland, New Zealand  within the GI
 The senior lecturer title is equivalent to associate professor in North American, European, and Asian universities
 (<a href="http://en.wikipedia.org/wiki/Academic_ranks_(Australia_and_New_Zealand)" target="_blank">see here</a>).<br>
 
+In my role we are developing a prototype of a Spatial Data Sovereignty tool. The project involves both designing and building a state-of-the-art web architecture and interface to mask, encrypt, and notarize spatial data. The project has a special interest in protecting indigenous data, specifically as it relates to forest biodiversity data. It comes at a particularly important moment for Aotearoa New Zealand, as there has been a surge in biodiversity challenges that require diverse datasets to be integrated into analysis – often containing sensitive and indigenous knowledge.
+
 I have worked as a University Lecturer for two and a half years. I also have more than six years application development commercial work experience in the public and private sector. 
 
 Teaching
