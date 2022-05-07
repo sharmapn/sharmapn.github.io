@@ -21,5 +21,5 @@ C# 3.5, Android, SSIS, SSAS and SSRS</i> technologies.
 - Introduced Business Intelligence Systems: Data warehousing and Data mining courses using Microsoft
 products: <i>Visual Studio 2008, SQL Server Analysis Services, SSRS, SSIS and BIDS 2008</i>.
 - I had taken a ``coaching style'' approache to accomplish student IT projects <br> 
-- resulting in some very good software projects, notably: <i> Timetable Generation System, <br> Student Course Registration, Students Information System</i> and a <i>Mobile Health application</i>.
+resulting in some very good software projects, notably: <i> Timetable Generation System, <br> Student Course Registration, Students Information System</i> and a <i>Mobile Health application</i>.
 
