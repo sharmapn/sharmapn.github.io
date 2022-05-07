@@ -5,11 +5,11 @@ title: Home
 
 <div class="container-fluid">
   <div class="row">
-    <div class="col-sm-7">
+    <div class="col-sm-6">
       <img class="img-fluid" src="./imgs/Pankaj.jpg" alt="Dr Pankaj Sharma"><br>
     </div>
     <div class="col-sm-5">    
-    <h1 class="text-primary">Kia Ora, Welcome</h1>
+    <h1 class="text-primary">Kia Ora, Namaste, Welcome, </h1>
 
 I am a Research Fellow at the GIScience Team, Department of Environment at the University of Auckland, New Zealand. 
 I am working on a project which focuses on providing Data sovereignty for Indigenous people. We are building a tool which will obfuscate, secure, and notarize spatial datasets. 
