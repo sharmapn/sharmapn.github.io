@@ -3,17 +3,13 @@
   place: University of Fiji
   years: 2010 - 2012
 - course:
-  name: Data Warehousing (postgraduate)
-  place: University of Fiji
-  years: 2011
-- course:
-  name: Decision Support Susyems (postgraduate)
-  place: University of Fiji
-  years: 2012
-- course:
-  name: Sofwtare Engineering project (supervision and coaching for students' final year project)
+  name: Software Engineering project (supervision and coaching for students' final year project)
   place: University of Fiji
   years: 2010 - 2011
+- course:
+  name: Data Warehousing (1TC415) and Decision Support Systems (ITC416) - both postgraduate courses
+  place: University of Fiji
+  years: 2011, 2012
 - course:
   name:	Artificial Intelligence
   place: University of Fiji
