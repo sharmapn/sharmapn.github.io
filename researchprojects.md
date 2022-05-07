@@ -4,7 +4,7 @@ I am looking forward to supervise research students in OSS decision-making and s
 - Continuing my research on decision-making processes in OSS communities, I am interested in development of automated tools that examine these aspects: 
    - if and which developers' preference matters in decision-making in these communities? 
    - how sentiments change after project leader steps down? and 
-   - who influences decisions? There are different influences in OSS and include strategic, operational and tactical. 
+   - who influences decisions? There are different types of influences in OSS development: strategic, operational and tactical. 
    - whether social connections (“knowing key members”) affects likelihood of participation (e.g. bug reporting, enhancement reporting and in decision-making)
 
 -	Structuring unstructured OSS communities <br>
