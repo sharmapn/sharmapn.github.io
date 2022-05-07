@@ -26,11 +26,8 @@ My research is mainly in the human and social aspects of software engineering. I
 <li><b>Automated Software Requirement Analytics.</b> The modern software landscape is highly competitive. Software companies need to quickly fix reported bugs and release requested new features, or they risk negative reviews and reduced market share. Online user feedback can provide software improvement insights to software developers. However, the sheer volume of feedback makes manual analysis time-consuming and cost- prohibitive. This project investigates automated techniques to extract and present software requirements from online user feedback data across a variety of feedback channels, for example app store reviews, social media, and question and answer forums. We are also investigating the representativeness of this feedback and how more diverse user needs can be considered by these techniques.</li>
 </ul>
 
-My research has attracted both national and international funding. My research is currently funded by the Royal Society Te Apārangi's Marsden Fund, the National Science Challenges Science for Technological Innovation's Veracity Spearshead, and Google.
-
-I employ a variety of both qualitative and quantitative empirical research methods including developing new methods and tools, data mining,
-repository analysis, social network analysis, interviews, and surveys.
-My research has been published in the the proceedings of the these conferences: International Conference in Software Engineering (ICSE), International Conference in Information Systems (ICIS), International Conference in Evaluation and Assesment in Software Engineering (EASE), and Asia Pacific Software Engineering Conference (APSEC), among others. Check out my full <a href="/publications.html">list of publications</a>.<br>
+I have used a variety of both qualitative and quantitative empirical research methods including developing new methods and tools, text mining,
+repository analysis, and social network analysis. My research has been published in the the proceedings of the these conferences: International Conference in Software Engineering (ICSE), International Conference in Information Systems (ICIS), International Conference in Evaluation and Assesment in Software Engineering (EASE), and Asia Pacific Software Engineering Conference (APSEC), among others. Check out my full <a href="/publications.html">list of publications</a>.<br>
 
 Before starting at the University of Auckland, I was a lecturer at University of Fiji for two and a half years.
 Prior to that, I was a Postdoctoral Fellow in the Software Engineering Global interAction Lab in the Department of Computer Science at the University of Victoria, Canada.
