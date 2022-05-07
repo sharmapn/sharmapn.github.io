@@ -15,9 +15,9 @@ Below is a list of courses that I have taught at the University of Fiji. <br>
 
 In these courses, I have:
 
-- Emphasized on the practical aspect of the courses and introduced latest technologies: Web Development,
-Mobile Application Development, Data Warehousing, Business Intelligence and Game Programming with ASP.NET
-C# 3.5, Android, SSIS, SSAS and SSRS technologies.
+- Emphasized on the practical aspect of the courses and introduced latest technologies: <i>Web Development,
+Mobile Application Development, Data Warehousing, Business Intelligence</i> and <i>Game Programming with ASP.NET
+C# 3.5, Android, SSIS, SSAS and SSRS</i> technologies.
 - Introduced Business Intelligence Systems: Data warehousing and Data mining courses using Microsoft
 products: Visual Studio 2008, SQL Server Analysis Services, SSRS, SSIS and BIDS 2008.
 - I had taken a ``coaching style'' approache to accomplish student IT projects resulting in some very good software projects, notably: <i> Timetable Generation System, Student Course Registration, Students Information System</i> and a <i>Mobile Health application</i>.
