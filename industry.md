@@ -1,29 +1,41 @@
-Research Projects
+Industry projects
 
-The following are the academic research projects I have undertaken.
+The following are the industry projects I have undertaken.
 
-- People and Processes during OSS Decision-making (2015-2021) <br>
-Project: The success of an open source software development (OSSD) community is
-attributed to the underlying governance model that appreciated by its community
-members. The longevity of such a community depends on making good decisions and
-hence understanding how consensus-based decision making is enacted. This study
-undertakes a qualitative, data-driven study to understand how consensus decisions are
-made in OSS, using the case study of Python – a well-known OSS project. The process
-of achieving consensus during decision making is investigated based on NLP content
-analysis of interactions between Python developers in mailing.
+Analyst Programmer | Datec Fiji (Oct 14 - Apr 15)
 
-- University of the South Pacific: GIS Web-based Course Portal (2004) <br>
-The GIS Course Portal project was undertaken so students outside the USP campus can study GIS courses
-online by visualizing, analyzing map resources, and submitting projects using the Internet. I configured Oracle
-9iAS Portal to store and present course information and materials; implementing online student work
-submission, creating maps using GeoMedia Web Map and integrating it within the Portal.
+Application Development
+―	Worked on migration of IBanqs HFC Bank application from VB6 to ASP.NET MVC application. 
+―	Coded VBA application to write biometric time sheet data to file in specific format for upload into PayGlobal.
+Business Analyst
+―	I oversaw development of the following applications: Fiji Water Training Management application system in ASP.NET C#, CashFlow system in C# and the RIBAK PNG website.
 
-- University of the South Pacific: GIS Pacific Island Web Atlas (2004) <br>
-To create a South Pacific Island Web Atlas providing geographical maps of all the twelve USP member
-countries available over the Web. I built the Atlas using GeoMedia Web Map technology.
 
-- USP: Master Thesis - Security Solutions for Spatial Data In-Storage (2003-2006) <br>
-My research provided a reasonably efficient alternative storage security solution for file-based spatial data in
-n-tier GIS environment. A File System within Database Instance (FSDB) was proposed for as a safe and more
-secure storage for spatial data in various file formats within a centralized authentication and access control
-mechanism in legacy DBMS. Encryption was used for further protection of stored data
+Analyst Programmer | FIJI NATIONAL UNIVERSITY (Aug 14 – Oct 14)
+
+Application Development
+―	Built the Online Programme Search facility in ASP.NET C# 4.0 allowing anyone to search for programmes offered by FNU online.  
+―	Built the FNU Online payments facility allowing staff, students and guests to pay for conferences, fees, fines, etc online. 
+
+Analyst Programmer | DATACOM SYSTEMS LTD, Wellington, (Jun 07 – Apr 08)
+
+Business as Usual (BAU)
+―	Completed a number of BAU requests, requiring enhancement of the NZ and SA Postlink front-end using Oracle Forms and Reports 6i. 
+Projects
+―	Was involved in the South Africa Postlink Application system upgrade from a Forms 4.5 OS/2 to a Forms 6i XP based system: including Corporate Product Database, Money Orders, host system, utilities, and database. 
+
+Systems Analyst Programmer/DBA | Information Technology and Computing Services (Jan 06 – Jun 07)
+
+Application Development 
+―	Migrated the Finance Ministry’s Bank Reconciliation application from Oracle Forms & Reports 6i to the J2EE application. 
+―	Technical lead in design and development of Fiji Immigration Advanced Passenger Information (API) System using Java 2EE and Java Messaging System, and Oracle DBMS Replication. 
+Database Administrator Role 
+―	Provided support; general administration and maintenance to key Oracle DB systems, including births, deaths & marriages, bank reconciliation, land rentals, and the replicated Immigration DBMS.
+
+Webmaster| Webmasters Limited (Sep 01 – Oct 02)
+―	Developed back-end database applications for the corporate client websites
+―	Involved in daily news updates within the company’s in-house websites 
+
+Reservations System Application | Sheraton Fiji Resorts (Sep 01 – May 02)
+―	Developed a commercial application; reservation systems software to accommodate reservations for Paradise Bride wedding services reservations Sheraton Resorts Fiji using Ms Access and VBA.
+
