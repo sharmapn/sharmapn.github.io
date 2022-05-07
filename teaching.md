@@ -19,6 +19,6 @@ In these courses, I have:
 Mobile Application Development, Data Warehousing, Business Intelligence</i> and <i>Game Programming with ASP.NET
 C# 3.5, Android, SSIS, SSAS and SSRS</i> technologies.
 - Introduced Business Intelligence Systems: Data warehousing and Data mining courses using Microsoft
-products: Visual Studio 2008, SQL Server Analysis Services, SSRS, SSIS and BIDS 2008.
+products: <i>Visual Studio 2008, SQL Server Analysis Services, SSRS, SSIS and BIDS 2008</i>.
 - I had taken a ``coaching style'' approache to accomplish student IT projects resulting in some very good software projects, notably: <i> Timetable Generation System, Student Course Registration, Students Information System</i> and a <i>Mobile Health application</i>.
 
