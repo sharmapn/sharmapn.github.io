@@ -3,13 +3,7 @@ layout: default
 title: Home
 ---
 
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-sm-7">
-      <img class="img-fluid" src="./imgs/Pankaj.jpg" alt="Dr Pankaj Sharma"><br>
-    </div>
-    <div class="col-sm-5">    
-    <h1 class="text-primary">Kia Ora, Welcome</h1>
+
 
 I am a Research Fellow at the GIScience Team, Department of Environment at the University of Auckland, New Zealand. 
 I am working on a project which focuses on providing Data sovereignty for Indigenous people. We are building a tool which will obfuscate, secure, and notarize spatial datasets. 
@@ -20,6 +14,13 @@ I graduated with a PhD in Information science from the Otago University in May 2
 
 <div style="text-align: center;"><a href="/about.html" style="font-family: 'Homemade Apple', cursive; font-size: 150%;">More about Pankaj</a></div>
 
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-7">
+      <img class="img-fluid" src="./imgs/Pankaj.jpg" alt="Dr Pankaj Sharma"><br>
+    </div>
+    <div class="col-sm-5">    
+    <h1 class="text-primary">Kia Ora, Welcome</h1>
 
 </div>
 </div>
