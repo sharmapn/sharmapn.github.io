@@ -19,7 +19,7 @@ I am working on a project which focuses on providing Data sovereignty for Indige
 I graduated with a PhD in Information science from the Otago University in May 2021. In my research, I identified and extracted Decision-making processes from OSS email archives of the Python community. The last of four published papers was at last year’s International Conference on Software Engineering (ICSE) – an A* ranked conference. We subsequently examined influence tactics in the Bitcoin community, a paper on which was accepted at the International Conference in Information Systems (ICIS) – another A* ranked conference.         
 
 <div style="text-align: center;"><a href="/about.html" style="font-family: 'Oleo Script', cursive; font-size: 150%;">More about Pankaj</a></div>
-
+ 
 
 
 </div>
