@@ -1,6 +1,6 @@
 Research Projects
 
-I am looking forward to supervise research students in OSS decision-making and spatial data security.  
+I am looking forward to supervise research students in open Source Software (OSS) decision-making and spatial data security.  
 
 <b>OSS decision-making</b>
 - Continuing my research on decision-making processes in OSS communities, I am interested in development of automated tools that examine these aspects: 
