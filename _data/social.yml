@@ -1,8 +1,8 @@
 - name: Email
-  url: mailto:pankaj.sharma@auckland.ac.nz
+  url: mailto:pankajeshwara at gmail dot com
   icon:	fas fa-envelope
 - name: Lab website
-  url: https://hasel.auckland.ac.nz/
+  url: https://sharmapn.github.io/
   icon:	fa fa-university
 - name: Twitter
   url: https://twitter.com/pankajeshwara
