@@ -5,7 +5,7 @@ title: Publications
 
 1.  Sharma, P., Martin M., & Swanlund D., (2023, May) MapSafe: A complete tool for achieving geospatial data sovereignty, Transactions in GIS 27 (6), 1680-1698 
 2.  Sharma, P., Savarimuthu, T., & Stanger, N., (2022) How are decisions made in open source software communities?—Uncovering rationale from python email repositories, Journal of Software: Evolution and Process, 
-3. Sharma, P., Savarimuthu, T., & Stanger, N., (2022) Stange Unearthing open source decision‐making processes: A case study of python enhancement proposals, Software: Practice and Experience 52 (10), 2312-2346
+3. Sharma, P., Savarimuthu, T., & Stanger, N., (2022) Unearthing open source decision‐making processes: A case study of python enhancement proposals, Software: Practice and Experience 52 (10), 2312-2346
 4.	Thapa, R., Sharma, P., Hüllmann, J. A., & Savarimuthu, B. T. R. (2021). Identifying Influence Mechanisms in Permissionless Blockchain Communities: The Bitcoin Case. In Proceedings of the 42nd International Conference on Information Systems
 5.	Sharma, P., Savarimuthu, T., & Stanger, N. (2021). Influence of Roles in Decision-Making during OSS Development—A Study of Python. In Evaluation and Assessment in Software Engineering (pp. 50-59).
 6.	Sharma, P., Savarimuthu, B. T. R., & Stanger, N. (2021, May). Extracting Rationale for Open Source Software Development Decisions --- A Study of Python Email Archives. In Proceedings of the 43rd International Conference on Software Engineering (In print).
