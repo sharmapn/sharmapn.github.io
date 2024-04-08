@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139856558-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-139856558-1');
+    </script>
+    <title>MapSafe QGIS Geoprivacy Plugin</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,500i,700,800i" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <link href="css/index.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm  navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">Safeguard</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">Verify</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">Shield Passphrase</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#usage">Usage</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contribute">Contribute</a>
+                </li>
+
+            </ul>
+            <div class="social-part">
+                <a class="nav-link" target="new" href="https://github.com/sharmapn/MapSafe-QGIS-plugin"><i style="font-size:24px" class="fa fa-github" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid" style="height: 560px; vertical-align: middle" id="home">
+        <div class="row" style="height: 100%">
+            <div class="col" style="text-align: right">
+                <span class="img-wrapper"></span>
+                <img src="assets/mapsafe_logo.png" style="vertical-align: middle;">
+            </div>
+            <div class="col" style="float:left; position: relative; top: 40%">
+                <div class="text-wrapper">
+                    <h1 style="vertical-align: middle">MapSafe QGIS Geoprivacy Plugin</h1>
+                    <h2 style="vertical-align: middle">An open source complete geoprivacy <br>  tool for desktop applications.</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <a class="anchor" id="about"></a>
+    <div class="container mt-5 mb-5">
+        <div class="row">
+            <h2 class="title w-100">About</h2>
+            <p>
+                MapSafe QGIS plugin offers location privacy protection mechanisms for users to protect 
+                the privacy of their datasets before publishing or putting them on maps.
+
+                The \textit{MapSafe QGIS geoprivacy} plugin leverages all these security functions 
+                in a workflow to offer a more holistic and complete geoprivacy from their familiar QGIS desktop application. 
+
+            </p>
+            <p>
+                
+                Users can first use geomasking or hexabinning to obfuscate coordinates, provisioning access to data at lower levels of accuracy. 
+                The resulting datasets, having different levels of detail are then protected using symmetric key encryption, while the passphrase 
+                itself is protected using public key encryption. permitting only intended parties to decrypt it. Finally, to complete the security process, 
+                the final encrypted volume's filename and hash value are notarised on the blockchain as a public record. 
+                <br> <br>
+
+                Data recipients can use the notarised record to verify the encrypted volume's originality and the original dataset therein, 
+                before decrypting and accessing it. 
+                The plugin aims to solve geoprivacy challenges, not currently addressed in other desktop GIS software, by combining security functions 
+                into a single workflow and graphical environment in QGIS. 
+
+            </p>
+            <p>
+                Our QGIS-based geoprivacy plugin replicates and advances our recent work where these security functions are furnished in a 
+                browser-based tool of the same name sharma2023mapsafe. It is intended to help the Open Source and the GIS community 
+                with a reliable tool for geoprivacy.
+            </p>
+            <h5 class="text-center w-100"><strong>
+                If you like the plugin, give it 5 stars!
+            </strong></h5>
+        </div>
+    </div>
+ 
+    <hr>
+
+    <a class="anchor" id="usage"></a>
+    <div class="container mt-5 mb-5" >
+        <div class="row">
+            <h2 class="title w-100">Usage</h2> 
+            <p>
+                Along this brief tutorial we will be using <a href="assets/downloads/test_dataset.csv" download="test_dataset.csv">this sample dataset</a>, consisting of 18967 points of locations of Tweets 
+                from Milano, Italy. Feel free to download it.<br>
+            </p>
+            <p class="w-100">
+                Index:
+            </p>
+                <ul>
+                    <li><a href="#started">Getting started</a></li>
+                    <li><a href="#functionalities">Functionalities</a></li>
+                    <li><a href="#lppm">The Location Privacy Protection Mechanisms (LPPM)</a></li>
+                </ul>
+            
+                <!--Seccion Getting Started-->
+            <a class="anchor" id="started"></a>
+            <h4 class="subtitle w-100" id="started">Getting Started</h4>
+            <p>
+                This plugin integrates three Location Privacy Protection Mechanisms (or LPPM) that were extracted from academic papers and research 
+                to provide technical and non-technical folks a suite of geoprivacy methods to protect their datasets before publishing or exporting.
+                This plugin works with <strong>vector layers</strong> that have <strong>Point</strong> geometries (Multipoint geometries are not supported yet) and that are projected to a projection that maintains latitude and longitude coordinates normal.
+            </p>
+            <p>
+                There are several categories for LPPMs, but for this kind of data, we chose to work with obfuscation and K-Anonymity methods, that 
+                are well suited for Point geometries and for offline data. <br>
+                Obfuscation methods hide the original location by changing the longitude and latitude of the point to new ones, while K-Anonymity 
+                hides user information and location by grouping similar or close points to be indistinguishable between them.
+            </p>
+            <p>
+                This plugin is located in the Vector menu and can be found in the <a href="https://plugins.qgis.org/plugins/" target="new">QGIS Python Plugins Repository</a>. <br>
+                Now create a new layer with the test dataset provided and let's get started!
+            </p>
+
+            <!--Seccion Functionalities-->
+            <a class="anchor" id="functionalities"></a>
+            <h4 class="subtitle w-100" id="functionalities">Functionalities</h4>
+            <p>
+                The plugin consists of a layer picker(1), three LPPMs(2,3,4), a Data Preview tab(5) and a Results tab(6).
+            </p>
+            <div class="image text-center w-100">
+                <img class="img-responsive thumbnail" src="assets/tutorial/img1.png">
+            </div>
+            <p>
+                The <strong>layer picker</strong> allows you to select one of the valid layers, that means, a Vector Layer with Point geometry, every other layer is filtered out 
+                from the selector. It is initially empty so you have to select the layer by yourself.<br>
+                Next section will tell you everything you need to know about the 
+            </p>
+            <p>
+                The <strong>Data Preview</strong> shows the first 100 or fewer features of the selected layer 
+                and its fields so you can explore the data. After a new layer is selected the information of the Data Preview tab is automatically updated. 
+                If your data has a field with the same values of the latitude or longitude it will not be shown to avoid revealing 
+                the original location of the points, also, when the data is processed, those fields with location data will disappear.
+            </p>
+            <div class="image text-center w-100">
+                <img class="img-responsive thumbnail" src="GeoPrivPlugin/assets/tutorial/img2.png">
+            </div>
+            <p>
+                Each one of the <strong>LPPMs</strong> has its own tab, a set of parameters and a <strong>Process Data</strong> button in the bottom 
+                of its tab. The next section will analyze each mechanism and explain each one of its parameters.
+            </p>
+            <p>
+                After the layer is processed by clicking on the <strong>Process Data</strong> button in any of the <strong>LPPMs</strong>, the <strong>Results</strong> tab 
+                is opened automatically and a temporal layer is created with the name of the mechanism and the original layer projection. 
+                The <strong>Results</strong> tab shows the progress of the mechanism (for large datasets it will take long processing times) and metrics of the 
+                new layer generated.
+            </p>
+            <div class="image text-center w-100">
+                <img class="img-responsive thumbnail" src="assets/tutorial/img3.png">
+            </div>
+            <p>
+                Two metrics are shown as well on the <strong>Results</strong> tab, the Quadratic Error or mean squared error and the point loss. The Quadratic error indicates how alike is the new layer 
+                with the original one by calculating the distance between the new and the original point and showing the mean of all errors squared (see <a href="https://en.wikipedia.org/wiki/Mean_squared_error" target="new">Mean Squared Error</a>). 
+                While the error increases, protection increases, but the utility of the data decreases. 
+            </p>
+            <p>
+                Point loss is the number of points that were erased during processing. Some mechanisms delete the noise of the dataset, but if every point is necessary you may 
+                want this value low.
+            </p>
+            <p>
+                Feel free to process your data as many times as you like testing different values for the parameters until 
+                you find the one you like the most.
+            </p>
+
+            <!--Seccion LPPMs-->
+            <a class="anchor" id="lppm"></a>
+            <h4 class="subtitle w-100" id="functionalities">The Location Privacy Protection Mechanisms (LPPM)</h4>
+            <p class="w-100">
+                There are three LPPMs implemented in this plugin: 
+            </p>
+            <ul>
+                <li><a href="#spatial">Spatial Clustering</a></li>
+                <li><a href="#nrandk">NRandK</a></li>
+                <li><a href="#geoi">Laplace Noise (or Geo indistinguishability)</a></li>
+            </ul>
+
+            <!--Seccion Spatial-->
+            <a class="anchor" id="spatial"></a>
+            <h4 class="subtitle w-100" id="spatial">Spatial Clustering</h4>
+            <p>
+                This is a K-Anonymity mechanism that provides privacy by aggregating points by their distance. <br>
+                Based on the VoKA algorithm with modifications in the clustering algorithms. You can find the paper <a href="https://www.researchgate.net/publication/320935047_VoKA_Voronoi_K-Aggregation_Mechanism_for_Privacy_in_Location-based_Information_Systems" target="new">here</a>.
+                This mechanism does a pre-processing, where it <strong>gridifies</strong> data, that means, aggregates data building a virtual grid according to a precision defined by the user.<br>
+                The precision for the gridification is the number of decimals that will be truncated from each coordinate to aggregate points by matching truncated coordinates.<br>
+                After that, the user can choose between K-Means and DBScan as the spatial clustering algorithm for the geolocated data.
+            </p>
+            <p><strong>PRO TIP:</strong></p>
+            <p>
+                Both K-Means and DBSCAN algorithms are very parameter-dependant. Default values are set for small cities but you will have to 
+                tune the parameters very carefully to truly unleash the power of these two clustering algorithms. <br>
+                DBSCAN is really useful for clusters with non-uniform shapes while KMeans works better with evenly distributed data and uniform clusters.
+            </p>
+            <div class="image text-center w-100">
+                <img class="img-responsive thumbnail" src="assets/tutorial/img4.png">
+            </div>
+            <p>
+                This mechanism receives 3 global parameters:
+            </p>
+            <ul>
+                <li><strong>Grid decimal Precision:</strong> Number of decimals to be truncated for the aggregation process (gridification). 
+                    A value of 5 approximates to 10cm, 4 to 10m, 3 to 100m and so on.</li>
+                <li><strong>Clustering algorithm:</strong> Selector with the available clustering algorithms.</li>
+                <li><strong>Minimum K:</strong> Minimum number of points that the cluster needs to group to ensure K-Anonymity.</li>
+            </ul>
+            <p>Additionally, each algorithm accepts its own set of parameters:</p>
+            <p>
+                <strong>- KMeans:</strong> <br>For method explanation see <a href="https://www.youtube.com/watch?v=IuRb3y8qKX4" target="new">KMeans</a>. <br>
+                The parameters that KMeans need are the number of clusters <strong>K</strong> and a <strong>random seed</strong> for reproducibility, 
+                which is zero (0) by default.
+            </p>
+            <p>
+                <strong>- DBScan:</strong> <br>For method explanation see <a href="https://youtu.be/5E097ZLE9Sg?t=44" target="new">DBSCAN</a>. <br>
+                The parameters that DBSCAN need are the <strong>aggregation radius R</strong> and the <strong>minimum quantity of points</strong> that must be grouped to make a cluster. This number 
+                can be different from the global <strong>minimum K</strong>. <br>
+                <strong>Radius</strong> values of 0.00001 approximates to a 10cm radius, 0.0001 to a 1m radius and 0.001 to a 100m radius.
+            </p>
+
+            <!--Seccion NRandK-->
+            <a class="anchor" id="nrandk"></a>
+            <h4 class="subtitle w-100" id="nrandk">NRandK</h4>
+            <p>
+                <strong>NRandK</strong> is an obfuscation Location Privacy Protection Mechanism that provides privacy by the modification of the original coordinates of the point.
+            </p>
+            <p>
+                This mechanism consists in applying an algorithm named <strong>NRand</strong> to each point of the dataset by generating <strong>N</strong> random points (four (4) by default) 
+                on a circle of <strong>radius R</strong> and choosing the farthest from the original point. <br>
+                The <strong>radius</strong> of the circle of each point is decided by how many points are close to it after an aggregation process.<br>
+                If the number of points that are close to the point is greater than <strong>K</strong>, the point uses a small radius, otherwise uses a larger radius.
+            </p>
+            <div class="image text-center w-100">
+                <img class="img-responsive thumbnail" src="assets/tutorial/img5.png">
+            </div>
+            <p>
+                This mechanism receives 6 parameters:
+            </p>
+            <ul>
+                <li><strong>Grid decimal Precision:</strong> Number of decimals to be truncated for the aggregation process (gridification).<br>
+                    A value of 5 approximates to 10cm, 4 to 10m, 3 to 100m and so on.</li>
+                <li><strong>Number of random points generated:</strong> Number of points that are generated inside the circle for each point. Four by default.</li>
+                <li><strong>Minimum Points:</strong> Number of points that determines if the point uses the small or the large radius.</li>
+                <li><strong>Small radius:</strong> Small radius for points in high-density areas. Values of 0.00001 approximate to a 10cm radius, 0.0001 to a 1m radius and 0.001 to a 100m radius.</li>
+                <li><strong>Large radius:</strong> large radius for points in low-density areas. Values of 0.00001 approximate to a 10cm radius, 0.0001 to a 1m radius and 0.001 to a 100m radius.</li>
+                <li><strong>Random seed:</strong> Random seed for reproducibility.</li>
+            </ul>
+            <p>You can find the scientific paper <a href="https://www.researchgate.net/publication/325450199_NRand-K_Minimizing_the_Impact_of_Location_Obfuscation_in_Spatial_Analysis" target="new">here</a> </p>
+
+            <!--Seccion GeoI-->
+            <a class="anchor" id="geoi"></a>
+            <h4 class="subtitle w-100" id="geoi">Laplace Noise (or Geo indistinguishability)</h4>
+            <p>
+                This is a differential privacy mechanism that provides privacy by changing the coordinates of a feature generating a new random point following a 
+                <strong>Laplacian</strong> distribution. <br>
+                For an explanation of differential privacy see <a href="https://www.youtube.com/watch?v=gI0wk1CXlsQ" target="new">Differential Privacy</a>.
+            </p>
+            <p>
+                Also, it is based on the principle of Geo indistinguishability, explained in <a href="http://www.lix.polytechnique.fr/~catuscia/papers/Geolocation/geo.pdf" target="new">this</a> 
+                paper.
+            </p>
+            <div class="image text-center w-100">
+                <img class="img-responsive thumbnail" src="assets/tutorial/img6.png">
+            </div>
+            <p>
+                This mechanism receives 2 parameters:
+            </p>
+            <ul>
+                <li><strong>Sensitivity:</strong> Sensitivity value of the <strong>Laplace</strong> distribution. <br>
+                A higher value means a larger area where the points can be generated.</li>
+                <li><strong>Random seed:</strong> Random seed for reproducibility.</li>
+            </ul>
+
+            
+
+
+            <!-- Encrypt Dataset -->
+            <h2 class="title w-100">Safeguard Dataset</h2> 
+
+            <p class="w-100">
+                The MapSafe plugin permits data owners with different options to carry out any one or multiple of these security functions:
+                </p>
+                <ul>
+                    <li><a href="#generatepassphrase">Anonymisation</a></li>
+                    <li><a href="#encryptlevels">Encryption</a></li>
+                    <li><a href="#encryptoptions">Notarisation </a></li>
+                </ul>
+
+            <h3 class="title w-100">Anonymisation</h2> 
+
+            <h3 class="title w-100">Encrypttion</h2> 
+
+                The original dataset is protected through an encryption scheme that allows access only 
+                from chosen users. 
+
+                
+                The MapSafe plugin permits data owners with different options to:
+                Generate Passphrase, Cater for users with varied access levels, Encrypt QGIS layers or files. and Passphrase protection using Public key encryption.
+                
+                
+                <a class="anchor" id="generatepassphrase"></a>
+                <h4 class="subtitle w-100" id="generatepass">Generate Passphrase</h4>
+                <p>
+                    Users can generate a random passphrase of 15 terms through the Generate Passphrase button.
+                    Pressing this button generates a different random passphrase each time.
+                    
+                </p>
+
+                <a class="anchor" id="encryptlevels"></a>
+                <h4 class="subtitle w-100" id="generatepass">Choose to include any levels in the encrypted volume — one, two, or three</h4>
+                <p>
+                    Users can choose to encrypt either the QGIS layers
+                    or any OS files (including GIS files). Once users save the masked or binned layers, they
+                    can be included for encryption within the three levels. Any number of levels, up to
+                    three, can be encrypted. Ideally, the original dataset will be encrypted at the first
+                    (innermost) level, while the obfuscated layers will be at the second, and the more
+                    obfuscated layer will be at the third level. In addition to the saved layers, any OS files
+                    can be included within these levels. 
+                </p>
+
+                <div class="image text-center w-100">
+                    <img class="img-responsive thumbnail" src="assets/encryption.png">
+                </div>
+
+                <a class="anchor" id="encryptoptions"></a>
+                <h4 class="subtitle w-100" id="generatepass">Encrypt the QGIS layers or OS files</h4>
+                <p>
+                    In MapSafe plugin’s encryption
+                    scheme, the original geospatial dataset alone or together with its obfuscated repre-
+                    sentations (medium coarse and coarse, see Table 1), are incorporated into a single
+                    encrypted volume that contains multiple secret levels, each holding a different repre-
+                    sentation of the original dataset, in a nested encryption scheme. The volume can be
+                    shared with users who can decrypt them based on their privilege. Figure 5 shows the
+                    encryption feature, where data owners can choose to encrypt only the original dataset,
+                    or together with its obfuscated representations. The nested approach makes it easier 
+                    for sharing and coordination.
+                </p>
+
+                
+
+                <a class="anchor" id="encryptpassoption"></a>
+                <h4 class="subtitle w-100" id="generatepass">Encrypt the passphrase (symmetric key) itself using public key approach for secure sharing</h4>
+                <p>
+                    The passphrase used for
+                    dataset encryption, in turn, can be encrypted using the recipient’s public key. Rather
+                    than re-encrypting datasets with a new key everytime a new user requests access to the
+                    (encrypted) dataset, this approach allows to just encrypt the passphrase. Moreover, a
+                    separate encrypted dataset does not need to be shared, especially through the cloud.
+                    This approach also protects the secret passphrase during exchange between the data.
+                    <br> 
+                    Refer to the following section for details.
+                </p>
+
+            <h3 class="title w-100">Notarisation</h2>   
+            
+
+            <!-- Shield Passphrase -->
+            <h2 class="title w-100">Shield Passphrase</h2> 
+
+                The Shield Passphrase tab allows data owners and recipeints to generate a public-private key pair to protect the passphrase. 
+            
+            <p class="w-100">
+                This tab permits these tasks:
+            </p>
+                <ul>
+                    <li><a href="#generatepass">Generate Passphrase</a></li>
+                    <li><a href="#encryptpass">Encrypt Passphrase</a></li>
+                    <li><a href="#decryptpass">Decrypt Passphrase</a></li>
+                </ul>
+            
+            <!--Seccion Getting Started-->
+            <a class="anchor" id="generatepass"></a>
+            <h4 class="subtitle w-100" id="generatepass">Generate Passphrase</h4>
+            <p>
+                The Shield Passphrase tab allows data owners and recipeints to generate a public-private key pair (see Generate Keys button in Figure 5). 
+            </p>
+
+             <div class="image text-center w-100">
+                <img class="img-responsive thumbnail" src="assets/shield_passphrase.png">
+            </div>
+
+            <a class="anchor" id="encryptpass"></a>
+            <h4 class="subtitle w-100" id="encryptpass">Encrypt Passphrase</h4>
+            <p>
+                After creation, the data recipient can supply data owners with their public key, that can be used to encrypt the passphrase (see Encrypt Passphrase option in Figure 5). 
+                The resulting encrypted passphrase with the encrypted volume (or its link on the cloud) can be sent to the recipient. 
+            </p>
+            <a class="anchor" id="decryptpass"></a>
+            <h4 class="subtitle w-100" id="decryptpass">Decrypt Passphrase</h4>
+            <p>
+                Data recipients can use their private key to decrypt the encrypted passphrase, that can then be used to decrypt the dataset (see Decrypt Passphrase option in Figure 5). The private key is restricted
+                within QGIS during decryption. Depending on security requirements, recipients can choose to send a new public key for encrypting the passphrase for each encrypted
+                dataset or use the same one for all datasets to be sent to them. 
+            </p>
+
+
+
+        </div>
+    </div>
+
+    <hr>
+
+    <a class="anchor" id="contribute"></a>
+    <div class="container mt-5 mb-5">
+        <div class="row">
+            <h2 class="title w-100">Contribute</h2>
+            <p>
+                You can contribute to the MapSafe GeoPrivacy plugin by reporting bugs and issues.<br>
+                Check the <a target="new" href="https://github.com/sharmapn/MapSafe-QGIS-plugin">project repository</a> and ask us team anything you want about 
+                the source code.
+            </p>
+
+            <h4 class="subtitle w-100" id="spatial">Adding a new Location Privacy Protection Mechanism</h4>
+            <p>
+                To add your own methods into this plugin you have to follow some guidelines and use the data structures that we designed to ensure uniformity 
+                between every implemented mechanism. 
+            </p>
+
+            <h5 class="subtitle w-100" id="spatial">Structure of the DataModel</h5>
+            <p>
+                The DataModel is how we distribute the information along the several functionalities of the plugin, making everything uniform and modular. That means 
+                that if someone wants to add a new mechanism it just have to receive the data as a DataModel and return a new DataModel with the processed data.
+            </p>
+            <p>
+                DataModel.py is located into the utils folder in the GeoPriv base folder. The constructor receives the following parameters:
+            </p>
+            <ul class="w-100">
+                <li><strong>layer: </strong>The QgsVectorLayer to process or the data as a list</li>
+                <li><strong>isLayer: </strong>Boolean variable that informs if the layer parameter is a QgsVectorLayer or a List</li>
+            </ul>
+            <p>
+                The DataModel contains the folowing fields:
+            </p>
+            <ul class="w-100">
+                <li><strong>layerData: </strong>Extracts the layer data into a list that is easy to process. 
+                    Each element of the list is an object with the following structure:<br>
+                    <ul>
+                        <li><strong>lat: </strong>Latitude</li>
+                        <li><strong>lon: </strong>Longitude</li>
+                        <li><strong>extraData: </strong>Every other field that each feature of the layer had, to ensure the layer data is keeped.</li>
+                    </ul>
+                
+                </li>
+                <li><strong>fields: </strong>The fields of the layer.</li>
+                <li><strong>isLayer: </strong>Variable that defines if the DataModel's layer that receives as parameter is a QgsVectorLayer or a List.</li>
+            </ul>
+            <p>
+                DataModel contains the following methods:
+                <ul class="w-100">
+                    <li><strong>method2list(data): </strong>Transforms a list of data as {lat, lon, extraData} to a DataModel object.</li>
+                    <li><strong>features2list(data): </strong>Transforms data from a QgsVectorLayer to a DataModel object</li>
+                    <li><strong>list2features(list): </strong>Transforms the list of elements of the DataModel to a list of QgsFeature. Returns the list of fields and features of the DataModel</li>
+                    <li><strong>getFieldData(): </strong>Get the list of the fields of the layer.</li>
+                    <li><strong>setFieldData(fields, data): </strong>Sets the DataModel field list with a new fields List.</li>
+                </ul>
+            </p>
+            <p>
+                Ideally, your Location Privacy Mechanism should receive the layer data that the plugin contains as a DataModel, process it, calculate error and point loss 
+                and return the data as a DataModel. Because every method is different, the error calculation is a matter of each Location Privacy Mechanism separately, 
+                When you are done, you can connect the labels in the user interface to show the error of the new layer. As well, you can calculate the point loss and 
+                print into the results tab. <strong>Only use the Results tab and leave it in the last place in the tab widget.</strong>
+            </p>
+
+            <h4 class="subtitle w-100" id="spatial">Adding the method to the UI</h4>
+            <p>
+                To add a new mechanism, add a new tab to the pluginTabs tab widget in the QT Designer UI, add every field you need as parameters and put a Process Data button in the bottom. <br>
+                After that, create a new method in the geoprivacy.py file located in the base folder of the plugin with the name of your mechanism and connect all of the form fields and buttons.
+            </p>
+            <p>
+                Finally, execute your method inside a try-catch printing error messages if the processing fails and showing the desired metrics when it succeeds.
+            </p>
+        </div>
+    </div>
+
+
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col-md"></div>
+            <div class="col text-justify">
+                <h3 class="w-100 pb-2">License Information</h3>
+                <p>
+                    MapSafe QGIS Geoprivacy Plugin is licensed under GNU General Public License v3. <br>
+                    Version 1.0
+                </p>
+            </div>
+
+            <div class="col text-right">
+                <h3>Created by:</h3>
+                <h3 class="mt-4">Pankajeshwara Sharma</h4>
+                <h4>pankajeshwara@gmail.com</h4>                
+            </div>
+            <div class="col-md"></div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
