@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>MapSafe QGIS Plugin</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+		
+		<div class="wrapper d-flex align-items-stretch">
+			<nav id="sidebar">
+				<div class="custom-menu">
+					<button type="button" id="sidebarCollapse" class="btn btn-primary">
+	          <i class="fa fa-bars"></i>
+	          <span class="sr-only">Toggle Menu</span>
+	        </button>
+        </div>
+				<div class="p-4 pt-5">
+		  		<h1><a href="index.html" class="logo">MapSafe</a></h1>
+	        <ul class="list-unstyled components mb-5">
+	          
+			  <li>
+	              <a href="index.html">Home</a>
+	          </li>
+
+			  <li>
+	              <a href="gettingstarted.html">Getting Started</a>
+	          </li>
+
+			  <li class="active">
+	            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Safeguard</a>
+	            <ul class="collapse list-unstyled" id="homeSubmenu">
+                <li>
+                    <a href="anonymise.html">Anonymise</a>
+                </li>
+                <li>
+                    <a href="encrypt.html">Encrypt</a>
+                </li>
+                <li>
+                    <a href="notarise.html">Notarise</a>
+                </li>
+	            </ul>
+	          </li>
+	          
+	          <li>
+              <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Verify</a>
+              <ul class="collapse list-unstyled" id="pageSubmenu">
+                <li>
+                    <a href="verify.html">Verify</a>
+                </li>
+                <li>
+                    <a href="decrypt.html">Decrypt</a>
+                </li>                
+              </ul>
+	          </li>
+			  <li>
+	              <a href="shield.html">Shield Passphrase</a>
+	          </li>	          
+	          <li>
+              <a href="contact.html">Contact</a>
+	          </li>
+	        </ul>
+
+	        
+
+	        
+
+	      </div>
+    	</nav>
+
+        <!-- Page Content  -->
+      <div id="content" class="p-4 p-md-5 pt-5">
+
+        <!-- Encryption -->
+		<h3 class="title w-100">Encryption</h2> 
+
+		<p>The original dataset is protected through an encryption scheme that allows access only 
+		from chosen users. The MapSafe plugin permits data owners with different options to:
+		Generate Passphrase, Cater for users with varied access levels, Encrypt QGIS layers or files. and Passphrase protection using Public key encryption.
+				
+		<a class="anchor" id="generatepassphrase"></a>
+		<h4 class="subtitle w-100" id="generatepass">Generate Passphrase</h4>
+		<p>
+			Users can generate a random passphrase of 15 terms through the Generate Passphrase button.
+			Pressing this button generates a different random passphrase each time.
+			
+		</p>
+
+		<a class="anchor" id="encryptlevels"></a>
+		<h4 class="subtitle w-100" id="generatepass">Choose to include any levels in the encrypted volume — one, two, or three</h4>
+		<p>Users can choose to encrypt either the QGIS layers
+			or any OS files (including GIS files). Once users save the masked or binned layers, they
+			can be included for encryption within the three levels. Any number of levels, up to
+			three, can be encrypted. Ideally, the original dataset will be encrypted at the first
+			(innermost) level, while the obfuscated layers will be at the second, and the more
+			obfuscated layer will be at the third level. In addition to the saved layers, any OS files
+			can be included within these levels. 
+		</p>
+
+		<div class="image text-left w-100">
+			<img class="img-responsive thumbnail" src="images/encryption.png">
+		</div>
+
+		<br>
+		<a class="anchor" id="encryptoptions"></a>
+		<h4 class="subtitle w-100" id="generatepass"> Encrypt the QGIS layers or OS files</h4>
+		
+		<p>In MapSafe plugin’s encryption
+			scheme, the original geospatial dataset alone or together with its obfuscated repre-
+			sentations (medium coarse and coarse, see Table 1), are incorporated into a single
+			encrypted volume that contains multiple secret levels, each holding a different repre-
+			sentation of the original dataset, in a nested encryption scheme. The volume can be
+			shared with users who can decrypt them based on their privilege. Figure 5 shows the
+			encryption feature, where data owners can choose to encrypt only the original dataset,
+			or together with its obfuscated representations. The nested approach makes it easier 
+			for sharing and coordination.
+		</p>
+
+		
+
+		<a class="anchor" id="encryptpassoption"></a>
+		<h4 class="subtitle w-100" id="generatepass"> Encrypt the passphrase (symmetric key) itself using public key approach</h4>
+		<p>The passphrase used for
+			dataset encryption, in turn, can be encrypted using the recipient’s public key for secure sharing. Rather
+			than re-encrypting datasets with a new key everytime a new user requests access to the
+			(encrypted) dataset, this approach allows to just encrypt the passphrase. Moreover, a
+			separate encrypted dataset does not need to be shared, especially through the cloud.
+			This approach also protects the secret passphrase during exchange between the data.
+			<br> 
+			Refer to the following section for details.
+		</p>
+
+		<br><br><br>
+		<div class="footer">
+			<p2><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+						Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made using <i class="icon-heart" aria-hidden="true"></i> <a href="https://colorlib.com" color="white" target="_blank">Colorlib.com</a>
+						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+		</div>
+	  
+	  </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

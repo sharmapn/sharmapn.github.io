@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>MapSafe QGIS Plugin</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/style.css">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+	<script>
+		$(function() {
+			$("#myImg").hover(
+				function() {
+					$(this).attr("src", "images/combined.gif");
+				},
+				function() {
+					$(this).attr("src", "images/pluginsettings.png");
+				}                         
+			);                  
+		});
+	</script>
+
+  </head>
+  <body>
+		
+		<div class="wrapper d-flex align-items-stretch">
+			<nav id="sidebar">
+				<div class="custom-menu">
+					<button type="button" id="sidebarCollapse" class="btn btn-primary">
+	          <i class="fa fa-bars"></i>
+	          <span class="sr-only">Toggle Menu</span>
+	        </button>
+        </div>
+				<div class="p-4 pt-5">
+		  		<h1><a href="index.html" class="logo">MapSafe</a></h1>
+	        <ul class="list-unstyled components mb-5">
+	          
+			  <li>
+	              <a href="index.html">Home</a>
+	          </li>
+
+			  <li>
+	              <a href="gettingstarted.html">Getting Started</a>
+	          </li>
+
+			  <li class="active">
+	            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Safeguard</a>
+	            <ul class="collapse list-unstyled" id="homeSubmenu">
+                <li>
+                    <a href="anonymise.html">Anonymise</a>
+                </li>
+                <li>
+                    <a href="encrypt.html">Encrypt</a>
+                </li>
+                <li>
+                    <a href="notarise.html">Notarise</a>
+                </li>
+	            </ul>
+	          </li>
+	          
+	          <li>
+              <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Verify</a>
+              <ul class="collapse list-unstyled" id="pageSubmenu">
+                <li>
+                    <a href="verify.html">Verify</a>
+                </li>
+                <li>
+                    <a href="decrypt.html">Decrypt</a>
+                </li>                
+              </ul>
+	          </li>
+			  <li>
+	              <a href="shield.html">Shield Passphrase</a>
+	          </li>	          
+	          <li>
+              <a href="contact.html">Contact</a>
+	          </li>
+	        </ul>
+
+	        
+
+	        
+
+	      </div>
+    	</nav>
+
+        <!-- Page Content  -->
+      <div id="content" class="p-4 p-md-5 pt-5">
+
+		<!-- Shield Passphrase -->
+		<h2 class="title w-100">Getting Started</h2> 
+
+			The following aspects need to be configured before being able to use the plugin. 
+			<ul>
+				<li>Installing the required Python libraries</a></li>
+				<li>Seting up for Notarisation</a></li>
+				<li>Seting up the Working Directory</a></li>
+				<li>Individual or Combined Mode</a></li>
+			</ul>
+
+         <h3>Installing the required Python libraries</h3>
+          
+		  <p>  Python should be installed on the machine
+				# e.g. from windows - https://www.python.org/downloads/windows/ - select windows installer <br>
+				# along with pip <br>
+				# For example, in a Windows PC, run OSGeo4W.bat from the directory 'D:\QGIS' not from 'D\OSGEO4W' 
+			<br> 
+
+		  <p> The following libraries are required pip install in qgis  <br>
+				Use D:\QGIS\OSGEO.bat <br>
+				D:\QGIS>pip install cryptography <br>
+				D:\QGIS>pip install cryptography <br>
+				D:\QGIS>pip install web3 <br>
+				D:\QGIS>pip install python-dotenv <br> 
+				D:\QGIS>pip install xkcdpass <br>
+				D:\QGIS>pip install easygui or python -m pip install easygui <br>
+				D:\QGIS>pip install python-dotenv <br>
+				D:\QGIS>(python -m) pip install pyqt-switch <br>
+          
+          
+		 <h3>Seting up for Notarisation</h3>
+          <p>All data should be notarised on the Ethereum mainnet. However, for testing one can use the public Ethereum testnet, such as Goerli.
+          To mint data on ether networks, you need to carry out these tasks.
+          
+          <ul class="a">
+            <li>First, visit  <a href="https://vanity-eth.tk/" target="_blank">Vanity-ETH </a> to generate an Ethereum vanity address and a private key.</li>          
+            <li>Second, using your generated Ethereum address, request Ether from this <a href="https://goerlifaucet.com" target="_blank">Goerli Faucet</a></li>          
+            <li>Third, install the <a href="https://metamask.io/" target="_blank">metamask wallet</a>, and connect it to the Goerli testnet or mainnet.</li>
+            <li>If using the testnet, you can check the Ether balance and all minted data on your address, at the 
+            <a href="https://goerli.etherscan.io/" target="_blank">Goerli etherscan</a> </li>          
+          </ul>
+          <br>
+
+
+		  <h3>Seting up the Working Directory</h3>
+          <p>It is essential for users to set the working directory. The plugin uses this diretory to <b>Save</b> the resulting masked, binned, and encrypted datasets.
+		  This directory is also used to perform computations.
+          
+          <p> This value can be set in the .env file or set by users when the plugin has been loaded.
+
+
+			<div class="image text-left w-100">
+				<img id="myImg" class="img-responsive thumbnail" src="images/combined.gif">
+			</div>
+
+		  <h3>Individual or Combined Mode</h3>
+          <p>The plugin can be used in two modes. The <b>individual mode</b> allows users to use the plugin's three security functions 
+		  (masking or hexabinning, encryption and notarisation) individually or in any combination. 
+
+          <p> On the other hand, the <b>combined mode</b> enforces and guides the user in perfoming these three functions one after the other in a workflow.
+			  
+		  <p> The switch at the top left permits this selection.	 
+
+		<br><br><br>
+		<div class="footer">
+			<p2><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+						Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made using <i class="icon-heart" aria-hidden="true"></i> <a href="https://colorlib.com" color="white" target="_blank">Colorlib.com</a>
+						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+		</div>
+
+
+	  </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

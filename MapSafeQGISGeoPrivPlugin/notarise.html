@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>MapSafe QGIS Plugin</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+		
+		<div class="wrapper d-flex align-items-stretch">
+			<nav id="sidebar">
+				<div class="custom-menu">
+					<button type="button" id="sidebarCollapse" class="btn btn-primary">
+	          <i class="fa fa-bars"></i>
+	          <span class="sr-only">Toggle Menu</span>
+	        </button>
+        </div>
+				<div class="p-4 pt-5">
+		  		<h1><a href="index.html" class="logo">MapSafe</a></h1>
+	        <ul class="list-unstyled components mb-5">
+	          
+			  <li>
+	              <a href="index.html">Home</a>
+	          </li>
+
+			  <li>
+	              <a href="gettingstarted.html">Getting Started</a>
+	          </li>
+
+			  <li class="active">
+	            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Safeguard</a>
+	            <ul class="collapse list-unstyled" id="homeSubmenu">
+                <li>
+                    <a href="shield.html">Anonymise</a>
+                </li>
+                <li>
+                    <a href="encrypt.html">Encrypt</a>
+                </li>
+                <li>
+                    <a href="verify.html">Notarise</a>
+                </li>
+	            </ul>
+	          </li>
+	          
+	          <li>
+              <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Verify</a>
+              <ul class="collapse list-unstyled" id="pageSubmenu">
+                <li>
+                    <a href="verify.html">Verify</a>
+                </li>
+                <li>
+                    <a href="decrypt.html">Decrypt</a>
+                </li>                
+              </ul>
+	          </li>
+			  <li>
+	              <a href="shield.html">Shield Passphrase</a>
+	          </li>	          
+	          <li>
+              <a href="contact.html">Contact</a>
+	          </li>
+	        </ul>
+
+	        
+
+	       
+
+	      </div>
+    	</nav>
+
+        <!-- Page Content  -->
+      <div id="content" class="p-4 p-md-5 pt-5">
+
+        <!-- Shield Passphrase -->
+		<h2 class="title w-100">Notarisation</h2> 
+
+			<p>In our approach, the encrypted volume is uniquely identified and represented by notarising its hash value as a
+    public record on the Ethereum Blockchain. First, the SHA256 cryptographic hash function is used to generate a hash
+    value of the encrypted file containing the original and/or obfuscated geospatial datasets. Since, tampering of data even by a single bit
+    will be detected by this process, this process can be used to resolve arguments against any given contested encrypted
+    volume. <br><br>
+
+    <p><b>Blockchain addresses</b> and <b>transactions</b> are essential concepts in cryptocurrencies. A blockchain address is a
+    unique account for a user to carry out transactions on the blockchain, e.g. send and receive the assets in Ethereum.
+    In our approach, each user requires a blockchain address using which they mint the hash value on the Blockchain.  
+    Users have to ensure that they have Ether in his account to pay for the transaction and add Ether using their 
+    credit-card via popular crypto selling websites, e.g. Bitprime.co.nz, etc. In
+    our approach after users pay for the minting using their Ethereum account, and in this account the hash values are
+    minted to make them publically available. 
+		
+		
+
+        <p>Figure 2 part 3 shows the process of notarisation. The hash value is calculated for the resulting encrypted
+        volume. Thereafter, upon pressing the mint button, the filename and hash value of the encrypted file is submitted to the Ethereum blockchain to be
+        stored as a public record of the geospatial dataset stored within.
+
+        	<p> Once the has value is minted, a url link to the Ethereum address where the data is stored as a public record is presented.</p>
+
+					<p>Watch this video to learn how to safeguard your data, from start to finish!</p>   
+
+          <video
+            id="my-video"
+            class="video-js"
+            controls
+            preload="auto"
+            width="828"
+            height="448"         
+            data-setup="{}"
+          >
+            <source src="images/safeguard.mp4" type="video/mp4" />
+            <source src="MY_VIDEO.webm" type="video/webm" />
+            <p class="vjs-no-js">
+              To view this video please enable JavaScript, and consider upgrading to a
+              web browser that
+              <a href="https://videojs.com/html5-video-support/" target="_blank"
+                >supports HTML5 video</a
+              >
+            </p>
+          </video>
+
+          <br><br><br>
+			    <div class="footer">
+	        	<p2><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+						  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made using <i class="icon-heart" aria-hidden="true"></i> <a href="https://colorlib.com" color="white" target="_blank">Colorlib.com</a>
+						  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+	        </div>
+	  
+	  </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

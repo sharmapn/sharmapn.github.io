@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>MapSafe QGIS Plugin</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+		
+		<div class="wrapper d-flex align-items-stretch">
+			<nav id="sidebar">
+				<div class="custom-menu">
+					<button type="button" id="sidebarCollapse" class="btn btn-primary">
+	          <i class="fa fa-bars"></i>
+	          <span class="sr-only">Toggle Menu</span>
+	        </button>
+        </div>
+				<div class="p-4 pt-5">
+		  		<h1><a href="index.html" class="logo">MapSafe</a></h1>
+	        <ul class="list-unstyled components mb-5">	          
+			  <li>
+	              <a href="index.html">Home</a>
+	          </li>
+			  <li>
+	              <a href="gettingstarted.html">Getting Started</a>
+	          </li>
+
+			  <li class="active">
+	            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Safeguard</a>
+	            <ul class="collapse list-unstyled" id="homeSubmenu">
+                <li>
+                    <a href="anonymise.html">Anonymise</a>
+                </li>
+                <li>
+                    <a href="encrypt.html">Encrypt</a>
+                </li>
+                <li>
+                    <a href="notarise.html">Notarise</a>
+                </li>
+	            </ul>
+	          </li>
+	          
+	          <li>
+              <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Verify</a>
+              <ul class="collapse list-unstyled" id="pageSubmenu">
+                <li>
+                    <a href="verify.html">Verify</a>
+                </li>
+                <li>
+                    <a href="decrypt.html">Decrypt</a>
+                </li>                
+              </ul>
+	          </li>
+			  <li>
+	              <a href="shield.html">Shield Passphrase</a>
+	          </li>	          
+	          <li>
+              <a href="contact.html">Contact</a>
+	          </li>
+	        </ul>
+
+	       
+
+	        
+
+	      </div>
+    	</nav>
+
+        <!-- Page Content  -->
+      <div id="content" class="p-4 p-md-5 pt-5">
+
+        <!-- Verification Guide -->
+		<h2 class="title w-100">Verification</h2> 
+
+			The Verification tab allows data recipeints to verify and decrypt the encrypted volume (that contains the original and/or obfuscated datasets). 
+		
+		<p class="w-100">
+			This tab permits these tasks:
+		</p>
+			<ul>
+				<li><a href="#decryptpass">Decrypt Passphrase</a></li>
+				<li><a href="#generatepass">Verification</a></li>
+				<li><a href="#encryptpass">Decryption</a></li>				
+			</ul>
+		
+		<!--Seccion Getting Started-->
+		<a class="anchor" id="decryptpass"></a>
+		<h3 class="subtitle w-100" id="decryptpass">Decrypt Passphrase</h3>
+		<p>
+			The Decrypt Passphrase option from the Shild Passphrase Tab allows data owners and recipeints to use their private key to decrpt the encrypted passphrase (see Generate Keys button in Figure 5). 
+
+		
+			Data recipients can use their private key to decrypt the encrypted passphrase, that can then be used to decrypt the dataset (see Decrypt Passphrase option in Figure 5). The private key is restricted
+			within QGIS during decryption. Depending on security requirements, recipients can choose to send a new public key for encrypting the passphrase for each encrypted
+			dataset or use the same one for all datasets to be sent to them. 
+		</p>
+
+		<div class="image text-left w-100">
+			<img class="img-responsive thumbnail" src="images/shield_passphrase.png">
+		</div>
+
+		<br>
+		<h3 id="verification" class="title w-100">Verification</h3> 
+		
+		<p> The verification process involves proving that the encrypted volume is the same as when it was safeguarded. 
+          This is achieved by comparing the digital signatures of the encrypted volume: the current one against that stored on the Blockchain. 
+          Once they match, the user can be confident that the encrypted volume has not been altered and can proceed to decrypt the volume.
+          These processes are explained below. </p>
+          
+				
+					<p>First, a hash value of the encrypted volume is generated. This value is then compared with that stored on the Blockchain under the users account. 
+					The masked dataset is encrypted in the browser memory at three levels. If both hash values match, it can be assured that the encrypted volume is the same as when it was safeguarded.</p>
+          
+          <h3 id="decryption">Decryption</h3>
+					<p>The Decryption process uses a passphrase to transform the encrypted data into a usable form. 
+          Mapsafe uses the encryption-decryption facility provided by the Web.Cryto toolkit whiich is in-built within the browser.  
+          This is similar but opposite to the encryption process.
+					The masked dataset is decrypted in the browser memory at three levels. 
+          These passphrases are required to decrypt to each of the three levels.</p>
+
+          <style>
+            ul.a {              list-style-type: circle;            }
+            ul.b {              list-style-type: square;            }
+            ol.c {              list-style-type: upper-roman;       }
+            ol.d {              list-style-type: lower-alpha;       }
+            .customIndent {              margin-left: -15px;        }
+            ul {              padding-left: 30px;                   }
+          </style>
+
+          <ul class="a">
+            <li>The full 15 term passphrase is used to decrypt to the original dataset,</li>
+            <li>10 terms of the full passphrase to decrypt the masked dataset, and </li>
+            <li>5 terms of the full passphrase to decrypt the `more' masked dataset.</li>
+          </ul>
+          <br> 
+					          
+          <p> 
+          <img src="images/verification.png" alt="Verification decryption levels" style="width:750px;height:110px;">
+          <br><br>
+
+          A detailed description of the encryption and decryption proceses are provided in this <a href="images/EncDecFlow.pdf" target="_blank"> 
+          <font color="blue">document</font> </a>   
+					
+					<h3>How do I use the verification facility?</h3>
+					<p>Watch this GIF to learn how to verify your data, from start to finish!</p>
+					
+          <video
+            id="my-video" class="video-js" controls preload="auto" width="825" height="448" data-setup="{}"
+          >
+            <source src="images/verification.mp4" type="video/mp4" />
+            <source src="MY_VIDEO.webm" type="video/webm" />
+            <p class="vjs-no-js">
+              To view this video please enable JavaScript, and consider upgrading to a
+              web browser that
+              <a href="https://videojs.com/html5-video-support/" target="_blank"
+                >supports HTML5 video</a
+              >
+            </p>
+          </video>          
+
+          <br><br><br>
+			  <div class="footer">
+	        	<p2><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+						  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made using <i class="icon-heart" aria-hidden="true"></i> <a href="https://colorlib.com" color="white" target="_blank">Colorlib.com</a>
+						  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+	        </div>
+
+	  
+	  </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
