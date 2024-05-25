@@ -23,7 +23,27 @@
 				}                         
 			);                  
 		});
+	
+
+
+		window.addEventListener('load', function() {
+			const submenus = document.querySelectorAll('.homeSubmenu');
+			submenus.forEach(function(submenu) {
+				submenu.style.display = 'block'; // show submenus on page load
+			});
+		});
+
 	</script>
+
+	<style>
+		code {
+		font-family: Consolas,"courier new";
+		color: crimson;
+		background-color: #f1f1f1;
+		padding: 2px;
+		font-size: 105%;
+		}
+	</style>
 
   </head>
   <body>
@@ -49,7 +69,7 @@
 	          </li>
 
 			  <li class="active">
-	            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Safeguard</a>
+	            <a id="my-ele" href="#homeSubmenu" data-toggle="collapse" aria-expanded="true" class="dropdown-toggle">Safeguard</a>
 	            <ul class="collapse list-unstyled" id="homeSubmenu">
                 <li>
                     <a href="anonymise.html">Anonymise</a>
@@ -64,7 +84,7 @@
 	          </li>
 	          
 	          <li>
-              <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Verify</a>
+              <a id="my-ele2" href="#pageSubmenu" data-toggle="collapse" aria-expanded="true" class="dropdown-toggle">Verify</a>
               <ul class="collapse list-unstyled" id="pageSubmenu">
                 <li>
                     <a href="verify.html">Verify</a>
@@ -95,66 +115,85 @@
 		<!-- Shield Passphrase -->
 		<h2 class="title w-100">Getting Started</h2> 
 
-			The following aspects need to be configured before being able to use the plugin. 
+			Before the plugin can be used, the following confuigurations need to be made. 
 			<ul>
-				<li>Installing the required Python libraries</a></li>
-				<li>Seting up for Notarisation</a></li>
-				<li>Seting up the Working Directory</a></li>
-				<li>Individual or Combined Mode</a></li>
+				<li>Installing Python and the required libraries</a></li>
+				<li>MapSafe Plugin Settings</a></li>
+				<ul>
+					<li>Individual or Combined Mode</a></li>
+					<li>Seting up the Working Directory</a></li>
+					<li>Seting up for Notarisation</a></li>
+					<li>Help Menu</a></li>
+				</ul>
 			</ul>
 
-         <h3>Installing the required Python libraries</h3>
+		<br>
+         <h3> Installing Python and the required libraries</h3>
           
-		  <p>  Python should be installed on the machine
-				# e.g. from windows - https://www.python.org/downloads/windows/ - select windows installer <br>
-				# along with pip <br>
-				# For example, in a Windows PC, run OSGeo4W.bat from the directory 'D:\QGIS' not from 'D\OSGEO4W' 
-			<br> 
+		  <p> Python can be installed on the machine. The 
+			The Windows installer is at https://www.python.org/downloads/windows/  <br>
+				
+		  <p> The required Python libraries can be installed via pip. 
+		  To use pip in a Windows environment, one needs to run the OSGeo4W.bat from the 'D:\QGIS' directory (not from 'D\OSGEO4W'). 
+				 <br>
 
-		  <p> The following libraries are required pip install in qgis  <br>
-				Use D:\QGIS\OSGEO.bat <br>
-				D:\QGIS>pip install cryptography <br>
-				D:\QGIS>pip install cryptography <br>
-				D:\QGIS>pip install web3 <br>
-				D:\QGIS>pip install python-dotenv <br> 
-				D:\QGIS>pip install xkcdpass <br>
-				D:\QGIS>pip install easygui or python -m pip install easygui <br>
-				D:\QGIS>pip install python-dotenv <br>
-				D:\QGIS>(python -m) pip install pyqt-switch <br>
+
+		  <p> These commands need to be issued using the D:\QGIS\OSGEO.bat <br>
+				<code> D:\QGIS>pip install cryptography </code> <br>
+				<code> D:\QGIS>pip install web3 </code> <br>
+				<code> D:\QGIS>pip install python-dotenv </code> <br> 
+				<code> D:\QGIS>pip install xkcdpass </code> <br>
+				<code> D:\QGIS>pip install easygui or python -m pip install easygui</code> <br>
+				<code> D:\QGIS>pip install python-dotenv </code> <br>
+				<code> D:\QGIS>(python -m) pip install pyqt-switch </code>  <br>
           
           
-		 <h3>Seting up for Notarisation</h3>
-          <p>All data should be notarised on the Ethereum mainnet. However, for testing one can use the public Ethereum testnet, such as Goerli.
-          To mint data on ether networks, you need to carry out these tasks.
+		  <br>
+		  <h3>MapSafe Plugin Settings</h3>
+
+		 From the plugin's main window, the following need to be set
+		 <br><br>
+
+		<div class="image text-left w-100">
+				<img id="myImg" class="img-responsive thumbnail" src="images/gettingstarted.png">
+			</div>
+
+
+		  <br><br>
+		  <h4>1. Individual or Combined Mode</h4>
+          <p>The plugin can be used in two modes. The <b>combined mode</b> (default) enforces and guides the user in perfoming these three functions in order in a workflow.
+			The <b>individual mode</b> allows users to use the plugin's three security functions 
+		  (masking or hexabinning, encryption and notarisation) individually or in any combination. 
+			  
+		  <p> This selection can be made in the switch at the top left (see above image).
+
+		<br><br>
+		 <h4>2. Seting up the Working Directory</h4>
+          <p>It is essential for users to set the working directory, where the resulting masked, binned, and encrypted datasets are <b>Saved</b>.		 
+		  This directory is also used by the plugin to perform computations and hold temporary data.
+          
+          <p> Users need to set this directory in the env variables dialog the first time the plugin is loaded (see above image).
+
+			 
+
+		<br><br>
+		 <h3>3. Seting up for Notarisation</h3>
+          <p>Ideally, all information should be notarised on the Ethereum mainnet. However, one can use the public Ethereum testnet, Sepolia for testing.
+          These are the steps needed for minting in Sepolia testnet:
           
           <ul class="a">
             <li>First, visit  <a href="https://vanity-eth.tk/" target="_blank">Vanity-ETH </a> to generate an Ethereum vanity address and a private key.</li>          
-            <li>Second, using your generated Ethereum address, request Ether from this <a href="https://goerlifaucet.com" target="_blank">Goerli Faucet</a></li>          
-            <li>Third, install the <a href="https://metamask.io/" target="_blank">metamask wallet</a>, and connect it to the Goerli testnet or mainnet.</li>
+            <li>Second, using your generated Ethereum address, request Ether from this <a href="https://www.sepoliafaucet.io/" target="_blank">Goerli Faucet</a></li>  
             <li>If using the testnet, you can check the Ether balance and all minted data on your address, at the 
-            <a href="https://goerli.etherscan.io/" target="_blank">Goerli etherscan</a> </li>          
+            <a href="https://sepolia.etherscan.io/" target="_blank">Goerli etherscan</a> </li>   
+			<li>Finally, set the private key and testnet information using the Set Variables button on the plugin's top right (see above image).</li>       
           </ul>
-          <br>
+          <br>		
 
 
-		  <h3>Seting up the Working Directory</h3>
-          <p>It is essential for users to set the working directory. The plugin uses this diretory to <b>Save</b> the resulting masked, binned, and encrypted datasets.
-		  This directory is also used to perform computations.
-          
-          <p> This value can be set in the .env file or set by users when the plugin has been loaded.
-
-
-			<div class="image text-left w-100">
-				<img id="myImg" class="img-responsive thumbnail" src="images/combined.gif">
-			</div>
-
-		  <h3>Individual or Combined Mode</h3>
-          <p>The plugin can be used in two modes. The <b>individual mode</b> allows users to use the plugin's three security functions 
-		  (masking or hexabinning, encryption and notarisation) individually or in any combination. 
-
-          <p> On the other hand, the <b>combined mode</b> enforces and guides the user in perfoming these three functions one after the other in a workflow.
-			  
-		  <p> The switch at the top left permits this selection.	 
+		
+		  <h4>4. Help</h4>
+          <p>The Help button directs the users to this website. 
 
 		<br><br><br>
 		<div class="footer">
@@ -170,5 +209,11 @@
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
+
+	<script>
+        document.getElementById("my-ele").click();
+		document.getElementById("my-ele2").click();  
+    </script>
+
   </body>
 </html>

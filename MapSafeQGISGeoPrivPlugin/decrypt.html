@@ -33,7 +33,7 @@
 	          </li>
 
 			  <li class="active">
-	            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Safeguard</a>
+	            <a id="my-ele" href="#homeSubmenu" data-toggle="collapse" aria-expanded="true" class="dropdown-toggle">Safeguard</a>
 	            <ul class="collapse list-unstyled" id="homeSubmenu">
                 <li>
                     <a href="anonymise.html">Anonymise</a>
@@ -48,7 +48,7 @@
 	          </li>
 	          
 	          <li>
-              <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Verify</a>
+              <a id="my-ele2" href="#pageSubmenu" data-toggle="collapse" aria-expanded="true" class="dropdown-toggle">Verify</a>
               <ul class="collapse list-unstyled" id="pageSubmenu">
                 <li>
                     <a href="verify.html">Verify</a>
@@ -148,5 +148,11 @@
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
+
+	<script>
+        document.getElementById("my-ele").click();
+		document.getElementById("my-ele2").click();  
+    </script>
+
   </body>
 </html>

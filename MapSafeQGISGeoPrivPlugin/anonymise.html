@@ -33,7 +33,7 @@
 	          </li>
 
 			  <li class="active">
-	            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Safeguard</a>
+	            <a id="my-ele" href="#homeSubmenu" data-toggle="collapse" aria-expanded="true" class="dropdown-toggle">Safeguard</a>
 	            <ul class="collapse list-unstyled" id="homeSubmenu">
                 <li>
                     <a href="anonymise.html">Anonymise</a>
@@ -48,7 +48,7 @@
 	          </li>
 	          
 	          <li>
-              <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Verify</a>
+              <a id="my-ele2" href="#pageSubmenu" data-toggle="collapse" aria-expanded="true" class="dropdown-toggle">Verify</a>
               <ul class="collapse list-unstyled" id="pageSubmenu">
                 <li>
                     <a href="verify.html">Verify</a>
@@ -120,9 +120,13 @@
 			original geographic dataset. The resulting datasets is shared with trusted users at different levels, to give them an
 			approximate location of the sensitive locations they want to hide.
 
+			Two Level masking allows two annonymised datasets to be created. The second level consists of ...
+
 			<p>After uploading their confidential point-based geospatial dataset in QGIS, users define the following two parameters to transform point data: 
 			(a) Minimum and (b) maximum masking distance. These two parameters are used to transform each point data to a specific distance at a random angle.
-			<br><br>
+			Then also specify if they want to perform an additional level of masking.
+			<br><br> 
+
 
 		  The three levels of masked datasets correlates with the following types of users:
 		    <ul>
@@ -133,7 +137,7 @@
 			<br>
 
 		  	<div > <!-- class="image text-center w-100" -->
-				<img class="img-responsive thumbnail" src="images/masking-guide.png">
+				<img class="img-responsive thumbnail" src="images/masking_guide.png">
 			</div>
 			<br>
 
@@ -178,7 +182,7 @@
 			<br><br>
 
 		  	<div >  <!-- style="width:500px;height:600px;" -->
-				<img class="img-responsive thumbnail" src="images/binning.png">
+				<img class="img-responsive thumbnail" src="images/binning_guide.png">
 			</div>
 
 			<br>
@@ -220,5 +224,11 @@
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
+
+	<script>
+        document.getElementById("my-ele").click();
+		document.getElementById("my-ele2").click();  
+    </script>
+
   </body>
 </html>
