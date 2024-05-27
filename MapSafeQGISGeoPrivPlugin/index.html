@@ -9,6 +9,26 @@
 		
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/style.css">
+
+
+	<style>
+		* {
+		box-sizing: border-box;
+		}
+
+		.row {
+		display: flex;
+		}
+
+		/* Create two equal columns that sits next to each other */
+		.column {
+		flex: 50%;
+		padding: 5px;
+		height: 300px; /* Should be removed. Only for demonstration */
+		}
+	</style>
+
+
   </head>
   <body>
 		
@@ -48,7 +68,7 @@
 	          </li>
 	          
 	          <li>
-              <a id="my-ele2" href="#pageSubmenu" data-toggle="collapse" aria-expanded="true" class="dropdown-toggle">Verify</a>
+              <a id="my-ele2" href="#pageSubmenu" data-toggle="collapse" aria-expanded="true" class="dropdown-toggle">Verification</a>
               <ul class="collapse list-unstyled" id="pageSubmenu">
                 <li>
                     <a href="verify.html">Verify</a>
@@ -103,44 +123,63 @@
 
 		<hr>
 
-		 <h2 class="title w-100">About</h2>
-            <p>
-                MapSafe QGIS plugin offers location privacy protection mechanisms for users to protect 
-                the privacy of their datasets before publishing or putting them on maps.
+		 
 
-                The <b>MapSafe QGIS geoprivacy</b> plugin leverages all these security functions 
-                in a workflow to offer a more holistic and complete geoprivacy from their familiar QGIS desktop application. 
+		<style>
+			p {
+				width:100%;				
+				text-align:left;
+			}
 
-            </p>
-            <p>
-                
-                Users can first use geomasking or hexabinning to obfuscate coordinates, provisioning access to data at lower levels of accuracy. 
-                The resulting datasets, having different levels of detail are then protected using symmetric key encryption, while the passphrase 
-                itself is protected using public key encryption. permitting only intended parties to decrypt it. Finally, to complete the security process, 
-                the final encrypted volume's filename and hash value are notarised on the blockchain as a public record. 
-                <br> <br>
+		</style>
 
-                Data recipients can use the notarised record to verify the encrypted volume's originality and the original dataset therein, 
-                before decrypting and accessing it. 
-                The plugin aims to solve geoprivacy challenges, not currently addressed in other desktop GIS software, by combining security functions 
-                into a single workflow and graphical environment in QGIS. 
+			<div class="row">
+				<div class="column" >
+						<p>
+							MapSafe QGIS plugin offers location privacy protection mechanisms for users to protect 
+							the privacy of their datasets before publishing or putting them on maps.
 
-            </p>
-            <p>
-                Our QGIS-based geoprivacy plugin replicates and advances our recent work where these security functions are furnished in a 
-                browser-based tool of the same name sharma2023mapsafe. It is intended to help the Open Source and the GIS community 
-                with a reliable tool for geoprivacy.
-            </p>
-            <h6 class="text-left w-100">
-                Rate the plugin on its Github <a href="https://github.com/sharmapn/MapSafe-QGIS-plugin" target="_blank">repo</a>   if you like!
-            </h6>
+							The <b>MapSafe QGIS geoprivacy</b> plugin leverages all these security functions 
+							in a workflow to offer a more holistic and complete geoprivacy from their familiar QGIS desktop application. 
 
-			<br><br><br>
-			<div class="footer">
-	        	<p2><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-						  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made using <i class="icon-heart" aria-hidden="true"></i> <a href="https://colorlib.com" color="white" target="_blank">Colorlib.com</a>
-						  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-	        </div>
+						</p>
+						<p>
+							
+							Users can first use geomasking or hexabinning to obfuscate coordinates, provisioning access to data at lower levels of accuracy. 
+							The resulting datasets, having different levels of detail are then protected using symmetric key encryption, while the passphrase 
+							itself is protected using public key encryption. permitting only intended parties to decrypt it. Finally, to complete the security process, 
+							the final encrypted volume's filename and hash value are notarised on the blockchain as a public record. 
+							<br> <br>
+
+							Data recipients can use the notarised record to verify the encrypted volume's originality and the original dataset therein, 
+							before decrypting and accessing it. 
+							The plugin aims to solve geoprivacy challenges, not currently addressed in other desktop GIS software, by combining security functions 
+							into a single workflow and graphical environment in QGIS. 
+
+						</p>
+						<p>
+							Our QGIS-based geoprivacy plugin replicates and advances our recent work where these security functions are furnished in a 
+							browser-based tool of the same name sharma2023mapsafe. It is intended to help the Open Source and the GIS community 
+							with a reliable tool for geoprivacy.
+						</p>
+						<h6 class="text-left w-100">
+							Rate the plugin on its Github <a href="https://github.com/sharmapn/MapSafe-QGIS-plugin" target="_blank">repo</a>   if you like!
+						</h6>
+
+						<div class="footer">
+							<p2><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+									Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made using <i class="icon-heart" aria-hidden="true"></i> <a href="https://colorlib.com" color="white" target="_blank">Colorlib.com</a>
+									<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+						</div>
+
+
+				</div>
+				<div class="column" >
+					<iframe width="600" height="350"
+						src="https://www.youtube.com/embed/gq4wX3kMTfE?autoplay=0">
+					</iframe>
+				</div>
+			</div>		
         
 	  </div>
 
