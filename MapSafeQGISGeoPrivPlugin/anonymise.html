@@ -107,11 +107,11 @@
 			<p>Ensuring privacy requires masked locations to be further from the original points, whereas maintaining utility entails the opposite. 
 			To this end, we assist users determine whether their chosen minimum and maximum boundaries are adequate in preventing the locations 
 			from being vulnerable to re-identification. The <b>Spruill's measure</b> yields a privacy rating based on the percentage of masked 
-			points that are closer to any of the original points cite armstrong1999geographically. 
+			points that are closer to any of the original points (refer to this <a href="https://www.academia.edu/download/44314891/Geographically_masking_health_data_to_pr20160401-7271-i9c9r4.pdf" target="_blank"<font color="blue">paper</font> </a>). 
 			To ensure privacy, Ema can keep adjusting the boundaries until a reasonable rating is achieved. 
 
-			<p>This measure was adopted in the <b>MaskMy.XYZ</b> application citep swanlund2020maskmy to assist users in geomasking. 
-			For the same purpose, <b>MapSafe.XYZ</b> geo-privacy application also uses this feature. Once masked, the layers can be saved using the <b>Save</b> button. 
+			<p>This measure was adopted in the <b>MaskMy.XYZ</b> application (<a href="https://www.maskmy.xyz" target="_blank"<font color="blue">https://www.maskmy.xyz</font> </a>) to assist users in geomasking. 
+			For the same purpose, <b>MapSafe.XYZ</b> geo-privacy application (<a href="https://www.mapsafe.xyz" target="_blank"<font color="blue">https://www.mapsafe.xyz</font> </a>) also uses this feature. Once masked, the layers can be saved using the <b>Save</b> button. 
 
 		 <br><br>
 
@@ -121,7 +121,8 @@
 			original geographic dataset. The resulting datasets is shared with trusted users at different levels, to give them an
 			approximate location of the sensitive locations they want to hide.
 
-			Two Level masking allows two annonymised datasets to be created. The second level consists of ...
+			Two Level masking allows two annonymised datasets to be created. The second level consists of a dataset that is masked with twice the user provided 
+			minimum and maximum distances. 
 
 			<p>After uploading their confidential point-based geospatial dataset in QGIS, users define the following two parameters to transform point data: 
 			(a) Minimum and (b) maximum masking distance. These two parameters are used to transform each point data to a specific distance at a random angle.
