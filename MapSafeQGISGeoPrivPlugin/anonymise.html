@@ -107,11 +107,11 @@
 			<p>Ensuring privacy requires masked locations to be further from the original points, whereas maintaining utility entails the opposite. 
 			To this end, we assist users determine whether their chosen minimum and maximum boundaries are adequate in preventing the locations 
 			from being vulnerable to re-identification. The <b>Spruill's measure</b> yields a privacy rating based on the percentage of masked 
-			points that are closer to any of the original points (refer to this <a href="https://www.academia.edu/download/44314891/Geographically_masking_health_data_to_pr20160401-7271-i9c9r4.pdf" target="_blank"<font color="blue">paper</font> </a>). 
+			points that are closer to any of the original points (refer to this <a href="https://www.academia.edu/download/44314891/Geographically_masking_health_data_to_pr20160401-7271-i9c9r4.pdf" target="_blank"<font color="blue">paper</font></a>). 
 			To ensure privacy, Ema can keep adjusting the boundaries until a reasonable rating is achieved. 
 
-			<p>This measure was adopted in the <b>MaskMy.XYZ</b> application (<a href="https://www.maskmy.xyz" target="_blank"<font color="blue">https://www.maskmy.xyz</font> </a>) to assist users in geomasking. 
-			For the same purpose, <b>MapSafe.XYZ</b> geo-privacy application (<a href="https://www.mapsafe.xyz" target="_blank"<font color="blue">https://www.mapsafe.xyz</font> </a>) also uses this feature. Once masked, the layers can be saved using the <b>Save</b> button. 
+			<p>This measure was adopted in the <b>MaskMy.XYZ</b> application (<a href="https://www.maskmy.xyz" target="_blank"<font color="blue">https://www.maskmy.xyz</font></a>) to assist users in geomasking. 
+			For the same purpose, <b>MapSafe.XYZ</b> geo-privacy application (<a href="https://www.mapsafe.xyz" target="_blank"<font color="blue">https://www.mapsafe.xyz</font></a>) also uses this feature. Once masked, the layers can be saved using the <b>Save</b> button. 
 
 		 <br><br>
 
@@ -175,10 +175,10 @@
 
 			<p>A suitable resolution must be chosen to balance privacy and utility depending on the area depicted in the dataset. 
 			Large hexagons (lower resolution) would show many distant locations in the same cell, whereas small 
-			hexagons (higher resolution) might show results that are too sparse to cover the entire area (refer to this <a href="https://geography.wisc.edu/geods/wp-content/uploads/sites/28/2022/05/2021_TGIS_FederatedLearning.pdf" target="_blank"<font color="blue">paper</font> </a>). 
+			hexagons (higher resolution) might show results that are too sparse to cover the entire area (refer to this <a href="https://geography.wisc.edu/geods/wp-content/uploads/sites/28/2022/05/2021_TGIS_FederatedLearning.pdf" target="_blank"<font color="blue">paper</font></a>). 
 			Therefore, a resolution needs to chosen that covers the entire area (i.e., dense representations) and 
 			contains a small cell size (i.e., preserving location details) to better balance the trade-off between 
-			spatial coverage and location details than other H3 indexing levels (<a href="https://geography.wisc.edu/geods/wp-content/uploads/sites/28/2022/05/2021_TGIS_FederatedLearning.pdf" target="_blank"<font color="blue">paper</font> </a>). 
+			spatial coverage and location details than other H3 indexing levels (<a href="https://geography.wisc.edu/geods/wp-content/uploads/sites/28/2022/05/2021_TGIS_FederatedLearning.pdf" target="_blank"<font color="blue">paper</font></a>). 
 			Ema chooses a resolution of 7 (the level of a small city) for the all_clusters_kamloops dataset 
 			and the results are shown in Figure below. The hexabinning process of generating hexabins and displaying them is instantaneous. 
 			<br><br>
