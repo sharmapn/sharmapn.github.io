@@ -4,7 +4,7 @@ plugins:
   
 gems: ['jekyll/scholar'] 
 
-title: "Dr Pankaj Sharma"
+title: "Dr Pankajeshwara Sharma"
 
 scholar:
   style: _bibliography/acm-sigchi-proceedings.csl
