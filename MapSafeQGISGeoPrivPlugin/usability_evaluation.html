@@ -116,21 +116,24 @@
 	
 <h3 class="title w-100"> Usability Test</h3> 
 
-<p>Since geospatial data can be sensitive, the security processes within the plugin can be complex, it would be a bonus to carry out a usability evaluation before others start to use it.  
-Thus, I would be grateful if you could test it as a user and give any feedback. A usability evaluation of the plugin is crucial before its rolled out for users and for our paper.  <br>
+<p>The security processes within the plugin can be complex, and therefore it would be a bonus to carry out a usability evaluation.  
+ We be grateful if you could test it as a user and give any feedback.  <br>
+
+<p> This website serves as the help menu for the plugin. All documnetation for the plugin is included here. 	
 
 	<br>
-			Complete the following steps to use the plugin. <br>
-			<ul>
-				<li>Installing Python and the required libraries</a></li>
-				<li>MapSafe Plugin Settings</a></li>
-				<ul>
-					<li>Individual or Combined Mode</a></li>
-					<li>Seting up the Working Directory</a></li>
-					<li>Seting up for Notarisation</a></li>
-					<li>Help Menu</a></li>
-				</ul>
-			</ul>
+	The usability test requires the following steps to be completed. <br>
+	<ul>
+		<li>Familiarising with the safeguarding and verification features via demonstration video</a></li>
+		<li>Installing Python and the required libraries</a></li>
+		<li>MapSafe Plugin Settings</a></li>
+		<ul>
+			<li>Individual or Combined Mode</a></li>
+			<li>Seting up the Working Directory</a></li>
+			<li>Seting up for Notarisation</a></li>
+			<li>Help Menu</a></li>
+		</ul>
+	</ul>
 	      
 
 <p>The usability evaluation for the MapSafe QGIS plugin is based on Jakob Nielsen’s 10 usability heuristics — a set of high-level guidelines based on an understanding of human behavior, psychology, and information processing.
@@ -138,11 +141,7 @@ Thus, I would be grateful if you could test it as a user and give any feedback. 
 <p>The Heuristic Evaluation workbook (in PDF) can be downloaded from  this website:
 			 <a href="https://www.nngroup.com/articles/how-to-conduct-a-heuristic-evaluation/" target="_blank">https://www.nngroup.com/articles/how-to-conduct-a-heuristic-evaluation/</a>
 
-<h3>1. Test Steps</h3>
-			
-<p>Carrying out the test should not take more than an hour.	
-
-<p>Demonstration Video 
+<h3>1. Demonstration Video</h3>
 
 <p>The first step would be to familiarise yourself with the plugins safeguarding and verification features via the following video. Also understand the Passphrase shielding feature. 
 
@@ -155,10 +154,13 @@ This plugin's features are are demonstrated in a 5 minute video.
 	</iframe>
 </div>
 
-<p>2. The plugin can be downloaded directly from QGIS, through the plugins menu: Plugins —> Manage and Install Plugins. 
-This website serves as the help menu for the plugin.
+<h3> 2. Test Procedure </h3>
+<p> <p>The test proceess comprises of the safeguarding an verification steps carried out in the demonstration video.
+Carrying out the test should not take more than an hour.
+	      
 
-<p> <p>The test procedure is the same steps carried out in the YouTube video. 
+
+ 
 			
 <br><br>
 
@@ -184,85 +186,26 @@ This website serves as the help menu for the plugin.
 
 
 		<br>
-         <h3>1. Installing Python and the required libraries</h3>
+	      
+ <h3>3. Installing Python and the required libraries</h3>
+
+<p>2. The plugin can be downloaded directly from QGIS, through the plugins menu: Plugins —> Manage and Install Plugins. 
+
           
-		  <p> Python can be installed on the machine. The 
-			The Windows installer can be found  <a href="https://www.python.org/downloads/windows/ " target="_blank">here </a> <br>
-				
-		  <p> The required Python libraries can be installed via pip. 
-		  To use pip in a Windows environment, one needs to run the OSGeo4W.bat from the 'D:\QGIS' directory (not from 'D\OSGEO4W'). 
-				 <br>
-
-
-		  <p> These commands need to be issued using the D:\QGIS\OSGEO.bat <br>
-				<code> D:\QGIS>pip install cryptography </code> <br>
-				<code> D:\QGIS>pip install web3 </code> <br>
-				<code> D:\QGIS>pip install python-dotenv </code> <br> 
-				<code> D:\QGIS>pip install xkcdpass </code> <br>
-				<code> D:\QGIS>pip install easygui or python -m pip install easygui</code> <br>
-				<code> D:\QGIS>pip install python-dotenv </code> <br>
-				<code> D:\QGIS>(python -m) pip install pyqt-switch </code>  <br>
-          
-          
-		  <br>
-		  <h3>2. MapSafe Plugin Settings</h3>
-
-		 <p>From the plugin's main window, the following need to be set. Note only the working directory is necessary, if one does not need to perform notarisation.
-		 <br><br>
-
-		<div class="image text-left w-100">
-				<img id="myImg2" class="img-responsive thumbnail" src="images/gettingstarted.png">
-			</div>
-
-
-		  <br><br>
-		  <h4>2 (a). Individual or Combined Mode</h4>
-          <p>The plugin can be used in two modes. The <b>combined mode</b> (default) enforces and guides the user in perfoming these three functions in order in a workflow.
-			The <b>individual mode</b> allows users to use the plugin's three security functions 
-		  (masking or hexabinning, encryption and notarisation) individually or in any combination. 
-			  
-		  <p> This selection can be made in the switch at the top left (see above image).
-
-		  The figure below outlines the different combinations in which the security functions in the individual mode can be used.
-		  These can be used collectively to fully safeguard their data, or independently, for example, users can choose to only mask their maps. 
-		  They can skip masking and only encrypt it and download the encrypted volume. After encryption, they have an option to further notarise it. 
-		 
-		 	<div class="image text-left w-100">
-				<img id="myImg" class="img-responsive thumbnail" src="images/PluginModes.jpg">
-			</div>
-
-		<br><br>
-		 <h4>2 (b) Seting up the Working Directory</h4>
-          <p>It is essential for users to set the working directory, where the resulting masked, binned, and encrypted datasets are <b>Saved</b>.		 
-		  This directory is also used by the plugin to perform computations and hold temporary data.
-          
-          <p> Users need to set this directory in the env variables dialog the first time the plugin is loaded (see above image).
-
-			 
-
-		<br><br>
-		 <h4>2 (c) Seting up for Notarisation</h4>
-			<p>Setting these details  is not necessary if one does not need to perform notarisation. 
-
-          <p>Ideally, all information should be notarised on the Ethereum mainnet. However, one can use the public Ethereum testnet, Sepolia for testing.
-          These are the steps needed for minting in Sepolia testnet:
-          
-          <ul class="a">
-            <li>First, visit  <a href="https://vanity-eth.tk/" target="_blank">Vanity-ETH </a> to generate an Ethereum vanity address and a private key.</li>          
-            <li>Second, using your generated Ethereum address, request Ether from this <a href="https://www.sepoliafaucet.io/" target="_blank">Goerli Faucet</a></li>  
-            <li>If using the testnet, you can check the Ether balance and all minted data on your address, at the 
-            <a href="https://sepolia.etherscan.io/" target="_blank">Goerli etherscan</a> </li>   
-			<li>Finally, set the private key and testnet information using the Set Variables button on the plugin's top right (see above image).</li>       
-          </ul>
-          <br>		
-
-
+  <p> The steps for installing Python and the required Python libraries are detailed <a href="gettingstarted.html" target="_blank">here </a> <br>
 		
-		  <h4>2 (d) Help</h4>
+ 
+  <h3>2. MapSafe Plugin Settings</h3>
+
+		 <p>The plugin environment variables (notariation details and the working directory) need to be set. These are also detailed <a href="gettingstarted.html" target="_blank">here </a> <br>
+		 <br><br>
+		 <p> The Individual or Combined Mode need to be understood. This is also explained <a href="gettingstarted.html" target="_blank">here </a> <br>         
+          <br>				
+		 
           <p>The Help button directs the users to this website. 
 
 			<br><br>
-			<h3>3. Usability Test procedure </h3>
+			
 
 			
 
