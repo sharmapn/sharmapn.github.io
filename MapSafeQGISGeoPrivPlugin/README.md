@@ -1,2 +1,2 @@
-# GeoPrivHomepage
-Webpage for the GeoPriv QQGIS Plugin 
+# MapSafeQGISPluginHomepage
+Webpage for the MapSafe QQGIS Plugin 
