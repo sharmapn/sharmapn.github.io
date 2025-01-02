@@ -140,42 +140,24 @@
 <br>
 <h3> 2. Usability Test  </h3>
 
-<p> 
-When using the MapSafe plugin, you’ll find its key feature is the simplicity of its interface and the thorough documentation provided. 
-The interface is clean and intuitive, with explanatory tooltips available next to nearly every button for functions like masking, hexabinning, encryption, notarization, verification, and decryption. 
-These tooltips help guide you through each step.
-
-<p> As you work, you’ll see the original, masked, and hexabinned datasets displayed as QGIS layers. 
-This allows you to visually compare the datasets before and after anonymization. 
-For additional guidance, refer to the this plugin’s help website, which provides a basic guide covering all features. 
-The guide explains how the plugin works, the trade-offs involved (e.g., deciding on masking distances), and its limitations. 
-The above detailed video walkthrough demonstrates the safeguarding and verification processes from start to finish.
-
-After downloading your anonymized dataset or encrypted volumes, the plugin will display reminders, such as not to reveal specific masking parameters to the public and to securely store the encryption passphrase. 
-Finally, once you complete the notarization process, the plugin will display the URL where the encrypted dataset’s details are stored, ensuring you can access this information easily.
-
-<p>Usability evaluations within GIS have traditionally given precedence to measuring efficiency, effectiveness, and user satisfaction. 
+<p>The usability evaluations focuses on measuring efficiency, effectiveness, and user satisfaction. 
 <ul>
-	<li> Effectiveness was measured by the errors and task completion rates, categorized as “complete,” “complete with errors,” or “incomplete.”
-	<li> Efficiency measurement was conducted by comparing the time needed to complete the safeguarding and verifying workflows.
-	<li> Usability testing is based on Jakob Nielsen’s 10 usability heuristics — a set of high-level guidelines based on an <br> understanding of human behavior, psychology, and information processing. <br>
-		The Heuristic Evaluation workbook (in PDF) can be downloaded from  this website: <br>
-			 <a href="https://www.nngroup.com/articles/how-to-conduct-a-heuristic-evaluation/" target="_blank">https://www.nngroup.com/articles/how-to-conduct-a-heuristic-evaluation/</a>
+	<li> Effectiveness focuses on errors and task completion rates, categorized as “complete,” “complete with errors,” or “incomplete.”
+	<li> Efficiency focuses on comparing the time needed to complete the safeguarding and verifying workflows.
+	<li> Usability testing is based on Jakob Nielsen’s 10 usability heuristics — a set of high-level guidelines based on an <br> 
+		understanding of human behavior, psychology, and information processing. <br>
+		
 </ul>	
 	
 <br>
 
 <h4> Effectiveness Test</h4>
 
-<p> Carry out the following steps within the safeguarding an verification process as shown in the demonstration video. This should not take more than an hour. <br>
-
-	 <embed src="./effectiveness_evaluation.pdf" type="application/pdf" width=500px height=500px />
-
-<p>The plugin allows these safeguarding functions to be carried out in combination or independently.
-The combined mode enforces an ordered execution of safeguarding functions, while the individual mode gives users the flexibility to perform any function first.
-This is a useful option in our plugin. However, it can be complicated to understand, and therefore, we have created two modes, with the combined mode as default.	
+<p>The plugin allows these safeguarding functions to be carried out in combination or independently. <br>
+The combined mode enforces an ordered execution of safeguarding functions, while the individual mode gives users the flexibility to perform any function first. <br>
+This is a useful option in our plugin. However, it can be complicated to understand, and therefore, we have created two modes, with the combined mode as default. <br>
       
-<b>Choose combined mode - should be already chosen by default.</b>
+<b>Choose the combined mode - should be already chosen by default.</b>
 <ul>
 	<li> Load the dataset - it should be in the dataset folder of the plugin zip file.</li>
 	<li> Carry our geomasking and save the layers.</a></li>
@@ -186,19 +168,49 @@ This is a useful option in our plugin. However, it can be complicated to underst
 	<li> Notarise, and open the transaction link in Sepolia Testnet Explorer using the link displayed in the plugin.</a></li>
 </ul>
 
-
 <b>Individual Mode</b>
 <ul>
-	<li><p>You can start from any security function and thereafter choose any function (moving to the right) as the next option.
-	The original dataset can be first masked, encrypted, or notarised, without having to go in that order. 
-	<li>Thereafter, the next security function (masking or encryption) can be skipped as well.
-	For instance, users can mask the dataset, but avoid encryption, and move on to notarise the masked dataset.
-	
+	<li><p>You can start from any security function and thereafter choose any function (moving to the right) as the next option. 
+	The original dataset can be first masked, encrypted, or notarised, without having to go in that order. </li>
+	<li>Thereafter, the next security function (masking or encryption) can be skipped as well. 
+	For instance, users can mask the dataset, but avoid encryption, and move on to notarise the masked dataset. </li>
 </ul>	
 
+<p> When undertaking these safeguarding an verification tasks, fill out the following form. This should not take more than an hour. <br>
 
+	 <embed src="./effectiveness_evaluation.pdf" type="application/pdf" width=500px height=500px />
 		<br>
-	      
+
+
+<h4> Effeciency Test</h4>
+
+
+
+<h4> Usability Test</h4>	
+
+Usability testing is based on Jakob Nielsen’s 10 usability heuristics, and we focus on human behavior, psychology, and information processing. <br>
+		The Heuristic Evaluation workbook (in PDF) can be downloaded from  this form: <br>
+			
+	<embed src="https://www.nngroup.com/articles/how-to-conduct-a-heuristic-evaluation/" type="application/pdf" width=500px height=500px />
+		<br>
+
+<p> 
+When using the MapSafe plugin, you’ll find its key feature is the simplicity of its interface and the thorough documentation provided. 
+The interface is clean and intuitive, with explanatory tooltips available next to nearly every button for functions like masking, hexabinning, encryption, notarization, verification, and decryption. 
+These tooltips help guide you through each step.
+
+<p> As you work, you’ll see the original, masked, and hexabinned datasets displayed as QGIS layers. <br>
+This allows you to visually compare the datasets before and after anonymization. <br>
+For additional guidance, refer to the this plugin’s help website, which provides a basic guide covering all features. <br>
+The guide explains how the plugin works, the trade-offs involved (e.g., deciding on masking distances), and its limitations.  <br>
+The above detailed video walkthrough demonstrates the safeguarding and verification processes from start to finish. <br>
+
+After downloading your anonymized dataset or encrypted volumes, the plugin will display reminders, such as not to reveal specific masking parameters to the public and to securely store the encryption passphrase. 
+Finally, once you complete the notarization process, the plugin will display the URL where the encrypted dataset’s details are stored, ensuring you can access this information easily.
+
+<br><br><br>
+	
+	
  <h3>3. Installing Python and the required libraries</h3>
 	      
    <p> The steps for installing Python and the required Python libraries are detailed <a href="gettingstarted.html" target="_blank">here </a> 
