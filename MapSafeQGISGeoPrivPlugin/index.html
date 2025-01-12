@@ -278,7 +278,7 @@
 			
 			<div class="container">
 				<h1>About MapSafe</h1>
-				<p>MapSafe completely safeguards sensitive geospatial datasets using obfuscation, encryption, and notarisation. These functions are implemented within the browser using popular open-source JavaScript libraries without ever requiring users to install or download any software.</p>
+				<p>MapSafe completely safeguards sensitive geospatial datasets using anonymiation, encryption, and notarisation. These functions are implemented within desktop QGIS application with needing to involve any third party.</p>
 				<p>Whether you're a GIS expert, a GIS researcher, or a newbie, if you need to safeguard your geospatial data but aren't quite sure how, MapSafe makes your life easier and brings previously cumbersome geospatial data safeguarding methods into reach.</p>
 		
 				<h2>Safeguarding</h2>
@@ -287,29 +287,29 @@
 				<div class="flex-container">
 					<div class="flex-item">
 						<div class="icon">📍</div>
-						<h3>Geospatial Masking</h3>
-						<p>MapSafe first allows users to use geomasking or binning functions to obfuscate coordinates. This allows users to share maps with approximate locations without overly affecting any spatial patterns, while preventing exposing sensitive data or violating anyone's privacy.</p>
+						<h3>Anonymisation</h3>
+						<p>MapSafe first allows users to use donut masking or hexagonal binning functions to anonymise coordinates. This allows users to share maps with approximate locations without overly affecting any spatial patterns, while preventing exposing sensitive data or violating anyone's privacy.</p>
 					</div>
 					<div class="flex-item">
 						<div class="icon">🔒</div>
 						<h3>Encryption</h3>
-						<p>The masked geospatial dataset is further protected using encryption where the original data is transformed into a form unrecoverable by an adversary. MapSafe uses the Web.Crypto toolkit library which is in-built within the web browser.</p>
+						<p>The anonymised geospatial dataset is further protected using encryption where the original data is transformed into a form unrecoverable by an adversary. MapSafe uses the PyCryptodome AES Python library which is native to the Operating System, delievering faster speed.</p>
 					</div>
 					<div class="flex-item">
 						<div class="icon">📜</div>
 						<h3>Notarisation</h3>
-						<p>Finally, MapSafe generates a hash value of the encrypted obfuscated geospatial data and notarises it as a public record on the tamper-proof Ethereum blockchain. This approach guarantees that the digital signature remains unchanged and can be used for verification of encrypted datasets.</p>
+						<p>Finally, MapSafe generates a hash value of the encrypted anonymised geospatial data and notarises it as a public record on the tamper-proof Ethereum blockchain. This approach guarantees that the digital signature remains unchanged and can be used for verification of encrypted datasets.</p>
 					</div>
 				</div>
 		
-				<h2>Verification</h2>
+				<h2>Access</h2>
 				<p>The verification process compares the before and after hash values of the encrypted file, after which the user can proceed with the decryption and display of the dataset.</p>
 		
 				<div class="flex-container">
 					<div class="flex-item">
 						<div class="icon">✅</div>
 						<h3>Verification</h3>
-						<p>The sovereign party loads the encrypted data, while MapSafe generates a hash value for verification against the hash stored in the blockchain. Matching values signify the volume has not been tampered with, and the user can then proceed with decryption.</p>
+						<p>The data receipient party loads the encrypted data, while MapSafe generates a hash value for verification against the hash stored in the blockchain. Matching values signify the volume has not been tampered with, and the user can then proceed with decryption.</p>
 					</div>
 					<div class="flex-item">
 						<div class="icon">🔑</div>
