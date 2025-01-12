@@ -304,6 +304,53 @@
 					</div>
 				</div>
 		
+				
+					<div class="container">
+					  <div class="row">
+						<div class="col-12 text-center">
+						  <div class="section-title">
+							 <a href="safeguard.html" target="_blank"><h2>SAFEGUARDING </h2></a>
+							<p>MapSafe uses three techniques to completely safeguard sensitive geospatial datasets. <br>
+							These techniques are carried out in a sequential order.</p>
+						  </div>
+						</div>
+					  </div>
+					  <div class="row">
+						<div class="col-lg-3 ">
+						  <div class="service-item">
+							<!-- on safeguard page, press F12 and select the icons - then see the styles tab down below to get codes.
+							Then lookup search the code in this project, and get the corresponding name from this file: 'ionicons.min.css' -->
+							<i class="icon ion-android-pin"></i>
+							<h4>Geospatial Masking</h4>
+							<p>MapSafe first allows users to use <b>geomasking</b> or <b>binning</b> functions to obfuscate coordinates. 
+							<!-- and protect privacy without overly affecting any spatial patterns. -->
+							This allows users to share maps with approximate locations without overly affecting any spatial patterns, 
+							while preventing exposing sensitive data or violating anyone's privacy. </p>
+						  </div>
+						</div>
+						<div class="col-lg-3 ">
+						  <div class="service-item">
+							<i class="icon ion-ios-locked"></i>
+							<h4>Encryption</h4>
+							<p>The masked geospatial dataset is further protected using 
+							<b>encryption</b> where the original data is transformed into a form unrecoverable by an adversary.  
+							MapSafe uses the Web.Cryto toolkit library which is in-built within the web browser. </p>
+						  </div>
+						</div>
+						<div class="col-lg-3 ">
+						  <div class="service-item">
+							<i class="icon ion-ribbon-b"></i>
+							<h4>Notarisation</h4>
+							<p><!-- a digital signature corresponding to the encrypted masked geospatial data is <b>notarised</b> publically. -->
+							<!-- <b>Notarisation</b> is a method used to create a digital signature of the data,  <b>notarised</b>
+							  usually via a cryptographic hash function. -->
+							  Finally, MapSafe generates a hash value of the encrypted obfuscated geospatial data <!-- using a cryptographic hash function -->
+							  and <b>notarises</b> it as a public record on the tamper-proof Ethereum blockchain.  
+							  This approach guarantees that the digital signature remains unchanged can be used for verification of encrypted datasets. 
+							  <!-- The user gets a url link to the Blockchain tranaction address with the digital signature.</p> -->
+						  </p></div>
+						</div>      
+				  </div></div>
 
 			<div class="container">
 				<h1>About MapSafe</h1>
