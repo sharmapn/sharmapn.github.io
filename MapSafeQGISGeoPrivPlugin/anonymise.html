@@ -84,8 +84,8 @@
 			  The <b>Annonymise</b> tab permits these tasks after the geospatial file is loaded into QGIS from the file system:
 			</p>
 			<ul>
-				<li><a href="#masking">GeoMasking</a></li>
-				<li><a href="#hexabinning">Hexabinning</a></li>
+				<li><a href="#masking">Donut Masking</a></li>
+				<li><a href="#hexabinning">Hexagonal binning</a></li>
 			</ul>
 		  	  
 		  <!-- Each of these techniques is described below. </p>  -->
@@ -126,7 +126,7 @@
 			<p> Therefore, for each dataset, a user would normally make multiple masking attempts using the Privacy Rating, to finally determine the best minimum and maximum boundaries based on the user's requirement. 
 				In this regard, Ema can keep adjusting the boundaries until a reasonable rating is achieved. 
 
-			<p>This measure was adopted in the (<a href="https://www.maskmy.xyz" target="_blank"<font color="blue">https://www.MaskMy.xyz web application</font></a>) to assist users in geomasking. 
+			<p>This measure was adopted in the (<a href="https://www.maskmy.xyz" target="_blank"<font color="blue">https://www.MaskMy.xyz web application</font></a>) to assist users in donut masking. 
 			For the same purpose, (<a href="https://www.mapsafe.xyz" target="_blank"<font color="blue">https://www.MapSafe.xyz web application</font></a>) also uses this feature. Once masked, the layers can be saved using the <b>Save</b> button. 
 
 		 <br><br>
@@ -175,7 +175,7 @@
 			<h3 id="hexabinning">Hexagonal binning</h3>
 			
 			<p>Hexagonal binning (hexbinning) is the other option for anonymising geospatial datasets in the MapSafe plugin. 
-			 This feature permits visualising the density of points and can be used instead of geomasking. 
+			 This feature permits visualising the density of points and can be used instead of donut masking. 
 			 Geographic points are aggregated into hexagonal cells using Uber's <a href="https://github.com/uber/h3-py/" target="_blank"<font color="blue">h3-py library</font> </a> 
              Hexagons with more points are represented by darker cells, while those with fewer points are represented by lighter cells. 
 			 Users can choose the spatial resolution (i.e., the Uber H3 spatial indexing level) along with the buffer radius for encoding.
@@ -187,7 +187,7 @@
           <p>(Image acquired from https://www.kontur.io/blog/why-we-use-h3/) </p>
           <br><br>
 
-		  <h4 id="hexabinning">Binning using the MapSafe Plugin</h4>
+		  <h4 id="hexabinning">Hexagonal Binning using the MapSafe Plugin</h4>
 
 			<p>A suitable resolution must be chosen to balance privacy and utility depending on the area depicted in the dataset. 
 			Large hexagons (lower resolution) would show many distant locations in the same cell, whereas small 
@@ -196,7 +196,7 @@
 			contains a small cell size (i.e., preserving location details) to better balance the trade-off between 
 			spatial coverage and location details than other H3 indexing levels (<a href="https://geography.wisc.edu/geods/wp-content/uploads/sites/28/2022/05/2021_TGIS_FederatedLearning.pdf" target="_blank"<font color="blue">paper</font></a>). 
 			Ema chooses a resolution of 7 (the level of a small city) for the all_clusters_kamloops dataset 
-			and the results are shown in Figure below. The hexabinning process of generating hexabins and displaying them is instantaneous. 
+			and the results are shown in Figure below. The hexagonal binning process of generating hexabins and displaying them is instantaneous. 
 			<br><br>
 
 		  	<div >  <!-- style="width:500px;height:600px;" -->
