@@ -263,6 +263,29 @@
 						flex: 1 1 100%;
 					}
 				}
+
+				/* Ensure headings and text are left-aligned with no padding */
+				.container, .row, .col, .section-title {
+					padding: 0;
+					margin: 0;
+				}
+
+				/* Left-align the text in the container */
+				.container p, .container h2 {
+					text-align: left;
+				}
+
+				/* Optional: Add padding to avoid text touching the edges */
+				.container {
+					padding-left: 20px;
+					padding-right: 20px;
+				}
+
+				/* Ensure consistent text alignment inside flex items */
+				.flex-container .flex-item {
+					text-align: left;
+				}
+
 			</style>
 
 			<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
