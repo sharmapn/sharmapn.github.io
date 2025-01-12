@@ -11,6 +11,9 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/style.css">
 
+		<link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+
+
 	<style>
 		* {
 		box-sizing: border-box;
@@ -274,7 +277,7 @@
 				}
 			</style>
 
-			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+			<br><br><br><br><br><br><br><br><br><br><br><br>
 			
 			<div class="container">
 				<h1>About MapSafe</h1>
@@ -291,12 +294,12 @@
 						<p>MapSafe first allows users to use donut masking or hexagonal binning functions to anonymise coordinates. This allows users to share maps with approximate locations without overly affecting any spatial patterns, while preventing exposing sensitive data or violating anyone's privacy.</p>
 					</div>
 					<div class="flex-item">
-						<div class="icon">🔒</div>
+						<div class="icon"><i class="ion-locked"></i></div>
 						<h3>Encryption</h3>
 						<p>The anonymised geospatial dataset is further protected using encryption where the original data is transformed into a form unrecoverable by an adversary. MapSafe uses the PyCryptodome AES Python library which is native to the Operating System, delievering faster speed.</p>
 					</div>
 					<div class="flex-item">
-						<div class="icon">📜</div>
+						<div class="icon"><i class="ion-document-text"></div>
 						<h3>Notarisation</h3>
 						<p>Finally, MapSafe generates a hash value of the encrypted anonymised geospatial data and notarises it as a public record on the tamper-proof Ethereum blockchain. This approach guarantees that the digital signature remains unchanged and can be used for verification of encrypted datasets.</p>
 					</div>
@@ -307,17 +310,17 @@
 		
 				<div class="flex-container">
 					<div class="flex-item">
-						<div class="icon">✅</div>
+						<div class="icon"><i class="ion-checkmark-circled"></div>
 						<h3>Verification</h3>
 						<p>The data receipient party loads the encrypted data, while MapSafe generates a hash value for verification against the hash stored in the blockchain. Matching values signify the volume has not been tampered with, and the user can then proceed with decryption.</p>
 					</div>
 					<div class="flex-item">
-						<div class="icon">🔑</div>
+						<div class="icon"><i class="ion-key"></div>
 						<h3>Decryption</h3>
 						<p>Decryption uses the encryption key to transform the encrypted data back into the original form. Based on the recipient's privilege, a passphrase of certain length will be shared using which the user decrypts to a certain encrypted level, containing different representations of the original dataset.</p>
 					</div>
 					<div class="flex-item">
-						<div class="icon">🖼️</div>
+						<div class="icon"><i class="ion-image"></div>
 						<h3>Display</h3>
 						<p>In the final step, the geospatial dataset of different resolutions is displayed. Based on their privilege, users will see either the original or a masked representation of the original dataset.</p>
 					</div>
