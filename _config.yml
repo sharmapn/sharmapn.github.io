@@ -4,6 +4,8 @@ plugins:
   
 gems: ['jekyll/scholar'] 
 
+google_analytics: G-4XZKF1JXQF
+
 title: "Dr Pankajeshwara Sharma"
 
 scholar:
