@@ -11,6 +11,8 @@ This is the GitHub Pages guide for MapSafe Mobile. It follows the layout and pla
 - `images/community` – premium multi-account access screenshots
 - `images/web` – NextGIS Web resource screenshots
 - `images/mapsafe-mobile-architecture.png` – architecture figure retained for future use
+- `downloads/MapSafeMobile-3.2.1.apk` – signed release APK for direct research installation
+- `downloads/SHA256SUMS.txt` – checksum for verifying the APK download
 
 ## Publishing
 
@@ -19,6 +21,8 @@ Copy this directory to `MapSafeMobile/` in `sharmapn/sharmapn.github.io` and com
 `https://sharmapn.github.io/MapSafeMobile/`
 
 The guide is static and has no build step or external JavaScript dependency. It is suitable for GitHub Pages and can also be opened locally by opening `index.html` in a browser.
+
+The direct APK download is intended for controlled research and field testing. Google Play remains the preferred distribution channel for general users because it provides familiar installation, review, Play Protect integration and automatic updates.
 
 ## Evidence note
 
