@@ -8,7 +8,7 @@ title: Home
 <div class="container-fluid">
   <div class="row">
     <div class="col-sm-6">
-      <img class="img-fluid" src="https://softwareinnovation.nz/wp-content/uploads/2024/05/image.png" alt="Dr Pankajeshwara Sharma" width="555" height="600"><br>
+      <img class="img-fluid" src="https://github.com/sharmapn/sharmapn.github.io/blob/main/imgs/pankaj2021b.png" alt="Dr Pankajeshwara Sharma" width="555" height="600"><br>
     </div>
     <div class="col-sm-5">    
     <h1 class="text-primary">Kia Ora, Namaste, Welcome, </h1>
