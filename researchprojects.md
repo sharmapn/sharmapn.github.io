@@ -1,18 +1,25 @@
 Research Projects
 
-I am looking forward to supervise research students in open Source Software (OSS) decision-making and spatial data security.  
+My research brings together software engineering, artificial intelligence, cybersecurity, and geospatial information science. Current and recent work includes the following areas.
 
-<b>OSS decision-making</b>
-- Continuing my research on decision-making processes in OSS communities, I am interested in development of automated tools that examine these aspects: 
-   - if and which developers' preference matters in decision-making in these communities? 
-   - how sentiments change after project leader steps down? and 
-   - who influences decisions? There are different types of influences in OSS development: strategic, operational and tactical. 
-   - whether social connections (“knowing key members”) affects likelihood of participation (e.g. bug reporting, enhancement reporting and in decision-making)
+<b>Geospatial privacy and Indigenous data sovereignty</b>
+- I have developed browser-based MapSafe tools and the open-source MapSafe QGIS Plugin to help protect sensitive geographic information before it is shared.
+- Current work examines geospatial privacy methods, including predictive geomasking and trajectory masking, and the balance between location privacy and the usefulness of shared data.
+- I am interested in extending privacy tools to mobile settings and in supporting responsible, community-led use of Indigenous data.
 
--	Structuring unstructured OSS communities <br>
-Not all OSS projects have a structure favourable for mining decision-making information. Unlike the Python community, older communities like Apache and Perl do not have a structure in relation to language enhancements. This project would aim at automatically assigning a structure so that decision-making information can be mined.
+<b>Artificial intelligence and student wellbeing</b>
+- I supervised Afsheen Hussein's Master's research through submission. The project examined a multi-persona, trainer-gated AI conversational framework to support mental-health and wellbeing needs among high-school students in Fiji.
+- I am interested in responsible AI applications that are designed around learners' needs, context, and access to human support.
+
+<b>Open-source software decision-making</b>
+- I continue to study how developers make and explain decisions in open-source communities, including how preferences, sentiment, roles, and social connections shape participation.
+- One research direction is to develop automated tools that can identify decision structures in communities whose discussions are less formally organised.
 
 <b>Spatial data security</b>
-- I want to focus on the development of an in-house data storage repository that can provide more features that traditional file servers – an extension of my own master’s thesis. 
+- My work includes secure storage, access control, encryption, and controlled sharing of geospatial data. I am interested in practical approaches that let organisations and communities protect sensitive information while making appropriate use of it.
 
-My future interests are on human decision-making based on collective intelligence.
+<b>Recent presentations and workshops</b>
+- FOSS4G 2025, Auckland: MapSafe QGIS Plugin and a cloud-based solution for Indigenous data sovereignty.
+- GIScience 2025, Christchurch: predictive geomasking using machine learning.
+- Pacific Islands GIS & Remote Sensing User Conference, Suva, 2024: presentations on MapSafe, geospatial encryption, and Indigenous data sovereignty.
+- Building Cyber Resilience in Fiji: Universities Working Together, Nadi, June 2026: presentations on geospatial privacy and Indigenous data sovereignty.
