@@ -2,23 +2,16 @@
 layout: default
 title: Teaching
 ---
-I have taught Undergraduate & Postgraduate Computing Science Students. My courses cover topics mostly related to software development and business informatics. 
 
-Below is a list of courses that I have taught at the University of Fiji. <br>
+I teach undergraduate and postgraduate computing students. At UCOL, my teaching includes mobile application development, cybersecurity, and data analytics. I currently teach D303 Mobile Application Development and D804 Advanced Mobile Application Solutions. Previously, at the University of Fiji, I taught courses in data science, business intelligence, artificial intelligence, penetration testing, software engineering, and data warehousing.
 
 <h2 class="text-primary">Courses Taught</h2>
 {% for item in site.data.teaching %}
-  <div style="padding-bottom: 10px"> <b>{{item.name}}</b><br>
-  <i>{{item.place}}</i><br>
-  {{item.years}}</div>
+  <div style="padding-bottom: 10px"> <b>{{item.course.name}}</b><br>
+  <i>{{item.course.place}}</i><br>
+  {{item.course.years}}</div>
 {% endfor %}
 
-In these courses, I have:
+In my teaching, I connect computing concepts with practical work and real-world applications. I use project coaching to help students build confidence, solve problems, and develop their independence.
 
-- Emphasized on the practical aspect of the courses and introduced latest technologies: <i>Web Development,
-Mobile Application Development, Data Warehousing, Business Intelligence</i> <br> and <i>Game Programming with ASP.NET
-C# 3.5, Android, SSIS, SSAS and SSRS</i> technologies.
-- Introduced Business Intelligence Systems: Data warehousing and Data mining courses using Microsoft
-products: <i>Visual Studio 2008, SQL Server Analysis Services, SSRS, SSIS and BIDS 2008</i>.
-- I had taken a ``coaching style'' approach to accomplish student IT projects resulting in some very good software projects, notably: <i> Timetable Generation System,  Student Course Registration, <br> Students Information System</i> and a <i>Mobile Health application</i>.
-
+Earlier courses included web development, mobile application development, data warehousing, business intelligence, and game programming. I used technologies such as Android, ASP.NET with C#, SQL Server Integration Services, SQL Server Analysis Services, and SQL Server Reporting Services. Student projects I coached included a timetable generation system, student course registration and information systems, and a mobile health application.
