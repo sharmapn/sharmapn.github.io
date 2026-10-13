@@ -64,6 +64,10 @@ const galleries = {
     ["web/nextgis-community-encrypted-packages.png", "Encrypted package resources."],
     ["web/nextgis-community-encrypted-package-records.png", "Encrypted package records and metadata."]
   ],
+  "web-manuscript": [
+    ["web/nextgis-community-public-keys.png", "NextGIS Web Public Keys resource group."],
+    ["web/nextgis-community-encrypted-packages.png", "NextGIS Web Encrypted Packages resource group."]
+  ],
   security: [
     ["mobile/ms2026-north-whangarei-20260909-02-security-account-community.png", "Account and community selection."],
     ["mobile/ms2026-north-whangarei-20260909-03-security-identity-folder-network.png", "Identity, folder and network settings."],
@@ -72,7 +76,7 @@ const galleries = {
 };
 
 const allMobile = [
-  "01-workflow-chooser","02-security-account-community","03-security-identity-folder-network","04-blockchain-network-profile","05-blockchain-contract-validation","06-access-community-local","07-verification-file-and-blockchain","08-safeguard-features","09-anonymise-options","10-halo-masking-configuration","11-halo-masking-applied-expanded","12-halo-masking-applied-collapsed","13-halo-masking-saved","14-hexagonal-binning-configuration","15-hexagonal-binning-applied-expanded","16-hexagonal-binning-applied-collapsed","17-hexagonal-binning-saved","18-identity-creation","19-identity-created","20-encrypt-protect","21-recipient-selection","22-encryption-success","23-notarisation-hash-network","24-decrypt-and-access","25-import-decrypted-layer","26-decryption-success","27-decrypted-dataset-map","28-original-sample-dataset-unobstructed","29-original-and-halo-masked-unobstructed","30-community-upload-selection","31-community-packages"
+  "01-workflow-chooser","02-security-account-community","03-security-identity-folder-network","04-blockchain-network-profile","05-blockchain-contract-validation","06-access-community-local","07-verification-file-and-blockchain","08-safeguard-features","09-anonymise-options","10-halo-masking-configuration","11-halo-masking-applied-expanded","12-halo-masking-applied-collapsed","13-halo-masking-saved","18-identity-creation","19-identity-created","20-encrypt-protect","21-recipient-selection","22-encryption-success","23-notarisation-hash-network","24-decrypt-and-access","25-import-decrypted-layer","26-decryption-success","27-decrypted-dataset-map","28-original-sample-dataset-unobstructed","29-original-and-halo-masked-unobstructed","30-community-upload-selection","31-community-packages"
 ].map((key) => [`mobile/ms2026-north-whangarei-20260909-${key}.png`, key.replaceAll("-", " ")]);
 const archiveCandidates = [...allMobile, ...Object.values(galleries).flat()];
 const seenArchive = new Set();
