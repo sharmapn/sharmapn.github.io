@@ -2,7 +2,8 @@
 layout: default
 title: Contact
 ---
-<h2 class="text-primary">I'd love to hear from students seeking research supervision and academics interested in research collaboration!</h2><br>
+<h2 class="text-primary">I'd love to hear from students seeking research supervision<br>
+and academics interested in research collaboration!</h2><br>
 
 <span><i class="fa fa-envelope"></i><a href="mailto:pankajeshwara at gmail dot com" target="_blank">pankajeshwara at gmail dot com</a></span><br><br>
 
