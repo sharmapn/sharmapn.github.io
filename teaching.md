@@ -3,15 +3,36 @@ layout: default
 title: Teaching
 ---
 
-I teach undergraduate and postgraduate computing students. At UCOL, my teaching includes mobile application development, cybersecurity, and data analytics. I currently teach D303 Mobile Application Development and D804 Advanced Mobile Application Solutions. Previously, at the University of Fiji, I taught courses in data science, business intelligence, artificial intelligence, penetration testing, software engineering, and data warehousing.
+I teach undergraduate and postgraduate computing students, with an emphasis on practical, industry-relevant learning. My teaching connects software development, data, cybersecurity, and applied problem-solving so that students can build both technical capability and confidence.
 
-<h2 class="text-primary">Courses Taught</h2>
-{% for item in site.data.teaching %}
-  <div style="padding-bottom: 10px"> <b>{{item.course.name}}</b><br>
-  <i>{{item.course.place}}</i><br>
-  {{item.course.years}}</div>
-{% endfor %}
+At UCOL, my current teaching is centred on mobile application development. I also contribute to teaching in cybersecurity and postgraduate Big Data Analytics.
 
-In my teaching, I connect computing concepts with practical work and real-world applications. I use project coaching to help students build confidence, solve problems, and develop their independence.
+<h2 class="text-primary">Current teaching at UCOL</h2>
 
-Earlier courses included web development, mobile application development, data warehousing, business intelligence, and game programming. I used technologies such as Android, ASP.NET with C#, SQL Server Integration Services, SQL Server Analysis Services, and SQL Server Reporting Services. Student projects I coached included a timetable generation system, student course registration and information systems, and a mobile health application.
+<div class="mb-3">
+  <b>D303 Mobile Application Development</b><br>
+  <i>Bachelor of Information and Communications Technology (BICT), Year 3 · 2026–present</i><br>
+  Students learn to design, develop, test, and evaluate mobile applications while considering user experience, data persistence, APIs, security, and real-world deployment.
+</div>
+
+<div class="mb-3">
+  <b>D804 Advanced Mobile Application Solutions</b><br>
+  <i>Master of Information Technology · 2026–present</i><br>
+  Students work with advanced mobile application architecture and development practices, including requirements analysis, accessibility, privacy, security, performance, testing, and deployment.
+</div>
+
+<h2 class="text-primary">Teaching areas</h2>
+
+My broader teaching experience includes mobile application development, cybersecurity, ethical hacking, Big Data Analytics, data science, artificial intelligence, business intelligence, software engineering, data warehousing, database systems, web development, and final-year project supervision.
+
+<h2 class="text-primary">Earlier teaching experience</h2>
+
+At the University of Fiji, I taught undergraduate and postgraduate computing courses from 2010 to 2012 and again from 2024 to 2026. Recent courses included Data Science in Practice, Business Intelligence, Artificial Intelligence, and Penetration Testing.
+
+Earlier courses included Software Engineering, Software Engineering Projects, Data Warehousing, Decision Support Systems, Artificial Intelligence, and Data Structures and Algorithms. I also coached students during their final-year projects.
+
+<h2 class="text-primary">Teaching approach</h2>
+
+I connect theory with practical problem-solving through demonstrations, projects, coaching, and reflection. Students are encouraged to develop solutions iteratively, explain their design decisions, and consider usability, accessibility, security, privacy, performance, and deployment.
+
+Student projects I have coached have included timetable generation, student registration and information systems, and mobile health applications. Earlier teaching also involved technologies such as Android, ASP.NET with C#, and Microsoft SQL Server Integration, Analysis, and Reporting Services.
