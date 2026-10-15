@@ -23,9 +23,71 @@ At UCOL, my current teaching is centred on mobile application development. I als
 
 <h2 class="text-primary">Teaching at the University of Fiji</h2>
 
-As Associate Professor in Computing Science at the University of Fiji from August 2024 to July 2026, I taught and supported undergraduate and postgraduate computing education. Recent courses included <b>DSC401 Data Science in Practice</b>, <b>ITC355 Business Intelligence</b>, <b>ITC441 Artificial Intelligence</b>, and <b>ITC431 Penetration Testing</b>.
+As Associate Professor in Computing Science at the University of Fiji from August 2024 to July 2026, I taught and supported undergraduate and postgraduate computing education. Recent courses included the following:
 
-Earlier teaching at the University of Fiji included <b>ITC301 Software Engineering</b>, <b>ITC300 Software Engineering Projects</b>, <b>ITC415 Data Warehousing</b>, <b>ITC416 Decision Support Systems</b>, <b>ITC315 Artificial Intelligence</b>, and <b>ITC313 Data Structures and Algorithms</b>. I also coached students during their final-year projects and supported postgraduate teaching and research supervision.
+<div class="mb-3">
+  <b>DSC401 Data Science in Practice</b><br>
+  <i><b>Postgraduate Diploma in Applied Data Science (PGDADS)</b> · 2026</i><br>
+  Students learn to work through practical data science problems, from preparing and exploring data to analysing results and communicating findings in an applied context.
+</div>
+
+<div class="mb-3">
+  <b>ITC355 Business Intelligence</b><br>
+  <i>University of Fiji · Undergraduate teaching</i><br>
+  Students learn to use data to support organisational decision-making through descriptive, predictive, and prescriptive analytics, with practical R exercises, visualisation, and business applications.
+</div>
+
+<div class="mb-3">
+  <b>ITC441 Artificial Intelligence</b><br>
+  <i>University of Fiji · Postgraduate teaching</i><br>
+  Students explore artificial intelligence techniques through practical Python exercises, including genetic algorithms and optimisation problems such as timetable and scheduling design.
+</div>
+
+<div class="mb-3">
+  <b>ITC431 Penetration Testing</b><br>
+  <i>University of Fiji · Postgraduate teaching</i><br>
+  Students develop practical skills in identifying and assessing security weaknesses through ethical penetration testing, with attention to client-server systems, testing tools, responsible reporting, and mitigation.
+</div>
+
+<h3>Earlier teaching</h3>
+
+<div class="mb-3">
+  <b>ITC301 Software Engineering</b><br>
+  <i>University of Fiji · Earlier teaching</i><br>
+  Students learn to approach software development systematically, connecting requirements analysis, design, implementation, testing, and maintenance with the development of reliable software.
+</div>
+
+<div class="mb-3">
+  <b>ITC300 Software Engineering Projects</b><br>
+  <i>University of Fiji · Earlier teaching</i><br>
+  Students apply software engineering knowledge to practical projects, developing their skills in planning, implementation, teamwork, documentation, and presenting working solutions.
+</div>
+
+<div class="mb-3">
+  <b>ITC415 Data Warehousing</b><br>
+  <i>University of Fiji · Earlier teaching</i><br>
+  Students explore how data is integrated, organised, and analysed for reporting and decision-making, with practical work using Microsoft SQL Server Integration, Analysis, and Reporting Services.
+</div>
+
+<div class="mb-3">
+  <b>ITC416 Decision Support Systems</b><br>
+  <i>University of Fiji · Earlier teaching</i><br>
+  Students examine how information systems, data, and analytical models can support organisational decisions, with an emphasis on applying these approaches to practical business problems.
+</div>
+
+<div class="mb-3">
+  <b>ITC315 Artificial Intelligence</b><br>
+  <i>University of Fiji · Earlier teaching</i><br>
+  Students explore foundational artificial intelligence concepts and problem-solving techniques, considering how intelligent systems can be designed and applied to computing problems.
+</div>
+
+<div class="mb-3">
+  <b>ITC313 Data Structures and Algorithms</b><br>
+  <i>University of Fiji · Earlier teaching</i><br>
+  Students learn to organise and process data using appropriate data structures and algorithms, considering correctness, efficiency, and the choice of suitable approaches for programming problems.
+</div>
+
+I also coached students during their final-year projects and supported postgraduate teaching and research supervision.
 
 <h2 class="text-primary">Curriculum leadership and programme development</h2>
 
