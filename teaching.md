@@ -21,18 +21,26 @@ At UCOL, my current teaching is centred on mobile application development. I als
   Students work with advanced mobile application architecture and development practices, including requirements analysis, accessibility, privacy, security, performance, testing, and deployment.
 </div>
 
+<h2 class="text-primary">Teaching at the University of Fiji</h2>
+
+As Associate Professor in Computing Science at the University of Fiji from August 2024 to July 2026, I taught and supported undergraduate and postgraduate computing education. Recent courses included Data Science in Practice (DSC401), Business Intelligence (ITC355), Artificial Intelligence (ITC441), and Penetration Testing (ITC431).
+
+Earlier teaching at the University of Fiji included Software Engineering (ITC301), Software Engineering Projects (ITC300), Data Warehousing (ITC415), Decision Support Systems (ITC416), Artificial Intelligence (ITC315), and Data Structures and Algorithms (ITC313). I also coached students during their final-year projects and supported postgraduate teaching and research supervision.
+
+<h2 class="text-primary">Curriculum leadership and programme development</h2>
+
+Beyond classroom teaching, I led and contributed substantially to curriculum redevelopment at the University of Fiji. The Bachelor of Information Technology (BIT) revamp replaced the former Multimedia focus with Cybersecurity and retained two pathways: Software Development and Cybersecurity. The revised curriculum strengthened areas such as artificial intelligence, practical data science, ethical hacking and penetration testing, digital forensics, and security risk and incident response. My contribution included developing course outlines, coordinating staff allocation, supporting programme marketing and mentoring, and presenting revised programmes for institutional approval.
+
+I also helped introduce the Postgraduate Diploma in Applied Data Science (PGDADS). The eight-unit qualification was designed around practical, data-driven technology learning and a pathway towards further postgraduate study. I led or supported course development, institutional and national approval, and recognition and articulation discussions with the University of Canterbury. During those discussions, six of the eight units were recognised for cross-credit, with Big Data Management and Analytics providing an additional local focus.
+
+The curriculum connected concepts with practical tools and methods. For example, R was integrated into Business Intelligence laboratories and Python into Artificial Intelligence and applied data science work, while keeping the learning outcomes focused on transferable skills rather than a single vendor platform.
+
 <h2 class="text-primary">Teaching areas</h2>
 
 My broader teaching experience includes mobile application development, cybersecurity, ethical hacking, Big Data Analytics, data science, artificial intelligence, business intelligence, software engineering, data warehousing, database systems, web development, and final-year project supervision.
-
-<h2 class="text-primary">Earlier teaching experience</h2>
-
-At the University of Fiji, I taught undergraduate and postgraduate computing courses from 2010 to 2012 and again from 2024 to 2026. Recent courses included Data Science in Practice, Business Intelligence, Artificial Intelligence, and Penetration Testing.
-
-Earlier courses included Software Engineering, Software Engineering Projects, Data Warehousing, Decision Support Systems, Artificial Intelligence, and Data Structures and Algorithms. I also coached students during their final-year projects.
 
 <h2 class="text-primary">Teaching approach</h2>
 
 I connect theory with practical problem-solving through demonstrations, projects, coaching, and reflection. Students are encouraged to develop solutions iteratively, explain their design decisions, and consider usability, accessibility, security, privacy, performance, and deployment.
 
-Student projects I have coached have included timetable generation, student registration and information systems, and mobile health applications. Earlier teaching also involved technologies such as Android, ASP.NET with C#, and Microsoft SQL Server Integration, Analysis, and Reporting Services.
+I have guided final-year capstone groups developing community web applications and supervised postgraduate research projects. Earlier student projects I coached included timetable generation, student registration and information systems, and mobile health applications. Earlier teaching also involved technologies such as Android, ASP.NET with C#, and Microsoft SQL Server Integration, Analysis, and Reporting Services.
