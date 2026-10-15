@@ -3,6 +3,10 @@ layout: default
 title: Teaching
 ---
 
+<h2 class="text-primary">Teaching areas</h2>
+
+My broader teaching experience includes mobile application development, cybersecurity, ethical hacking, Big Data Analytics, data science, artificial intelligence, business intelligence, software engineering, data warehousing, database systems, web development, and final-year project supervision.
+
 I teach undergraduate and postgraduate computing students, with an emphasis on practical, industry-relevant learning. My teaching connects software development, data, cybersecurity, and applied problem-solving so that students can build both technical capability and confidence.
 
 At UCOL, my current teaching is centred on mobile application development. I also contribute to teaching in cybersecurity and postgraduate Big Data Analytics.
@@ -96,10 +100,6 @@ Beyond classroom teaching, I led and contributed substantially to curriculum red
 I also helped introduce the <b>Postgraduate Diploma in Applied Data Science (PGDADS)</b>. The eight-unit qualification was designed around practical, data-driven technology learning and a pathway towards further postgraduate study. I led or supported course development, institutional and national approval, and recognition and articulation discussions with the University of Canterbury. During those discussions, six of the eight units were recognised for cross-credit, with Big Data Management and Analytics providing an additional local focus.
 
 The curriculum connected concepts with practical tools and methods. For example, R was integrated into Business Intelligence laboratories and Python into Artificial Intelligence and applied data science work, while keeping the learning outcomes focused on transferable skills rather than a single vendor platform.
-
-<h2 class="text-primary">Teaching areas</h2>
-
-My broader teaching experience includes mobile application development, cybersecurity, ethical hacking, Big Data Analytics, data science, artificial intelligence, business intelligence, software engineering, data warehousing, database systems, web development, and final-year project supervision.
 
 <h2 class="text-primary">Teaching approach</h2>
 
